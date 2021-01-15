@@ -1,0 +1,25 @@
+---
+title: "Final Project Executive Summary"
+subtitle: "What Does K-Pop Encompass as a Music Genre?"
+author: "Ashley Fang"
+date: "11/25/2020"
+output: html_document
+---
+
+In this exploratory data analysis, I examined the audio features and lyrics of 88 top K-pop tracks from 2019. I also compared the audio features of K-pop tracks alongside 11 other major genres: pop, rock, hip hop, dance, Latin, gospel, folk, Afropop, indie, R&B, and country. All tracks were obtained from "best of" playlists curated by Spotify in 2019. 
+<br>
+
+According to my analysis, K-pop is a genre in which girl and boy groups, instead of solo artists, dominate the charts. K-pop artists like to release new music as singles rather than full-length albums. K-pop music tend to be loud, energetic, performance and audience-oriented, with a more produced and electronic sound. K-pop lyrics tend to be present-focused, with main themes such as love, partying, and bodily experiences, and Korean and English lyrics in K-pop portray slightly different emotions. 
+<br>
+
+The radar chart below summarizes K-pop's performance on six audio features, in comparison to all 12 genres analyzed.
+![K-Pop Audio Features](images/Kpop_radarchart.png)
+
+<br>
+The word clouds below show the 40 most frequently used English and Korean words in K-pop lyrics.
+![K-Pop Lyrics English Word Cloud](images/wordcloud_eng.png)
+![K-Pop Lyrics Korean Word Cloud](images/wordcloud_ko.png)
+
+
+
+

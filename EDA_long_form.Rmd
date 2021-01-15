@@ -1,0 +1,474 @@
+---
+title: "Final Project"
+subtitle: "What Does K-Pop Encompass as a Music Genre?"
+author: "Ashley Fang"
+date: "11/25/2020"
+output:
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_float: true
+    highlight: "tango"
+---
+
+# Introduction
+
+<br>
+As a music fan living in 2020, you have probably asked at least one of the two following questions: “Why is K-pop so addictive?” or, “Why is K-pop so popular?”
+
+<br>
+
+Whether you like it or not, K-pop, short for Korean popular music, is rapidly gaining popularity in the U.S. and countries all around the globe. With the rise of superstar groups like BTS and BLACKPINK, K-pop is also becoming one of the top genres on music streaming services. Even as a die-hard K-pop fan, I still had my jaw dropped when I saw *Dynamite* by BTS top the Billboard Hot 100. K-pop is becoming the dark horse and an increasingly fascinating music genre to explore.
+
+<br>
+
+Since K-pop is a genre with appealing visual components such as choreography, we tend to pay less attention to the music itself. I knew K-pop draws heavy influences from genres such as pop, hip hop, dance, rock, and R&B, but I find it hard to describe in words what K-pop music exactly sounds like. Therefore, for my final project, I decided to analyze the characteristics and audio features of top K-pop tracks, with the goal to learn more about K-pop as a music genre instead of a general form of entertainment. 
+
+<br> 
+
+## Data Collection and Cleaning
+<br>
+
+In this exploratory data analysis, I will examine the audio features and lyrics of 88 K-pop tracks from 2019. I will also be analyzing K-pop alongside 11 other major genres, with tracks obtained from Spotify’s “Best of 2019” playlists: [pop](https://open.spotify.com/playlist/37i9dQZF1DXau6DEOS07fE?si=2dzMXX3NSEiOtV0CLV4SUQ), [rock](https://open.spotify.com/playlist/37i9dQZF1DX5gBZa9tnZTY?si=tmjJOPWqTL2lHQoe_Y0cPw), [hip hop](https://open.spotify.com/playlist/37i9dQZF1DX4ykqMZqUn3L?si=Zr86Xmp6RHuMPIfDmkF1Mw), [dance](https://open.spotify.com/playlist/37i9dQZF1DWYEA2z2jQnzS?si=X2VDvJLSTdS6SlJcyqU-xQ), [R&B](https://open.spotify.com/playlist/37i9dQZF1DWT2DKEIZ0ILA?si=PdbnUZgxQS68LQ7CphGRIg), [indie](https://open.spotify.com/playlist/37i9dQZF1DWTc5QDlvD7t0?si=HXyBGoJuTiSiarceo2qwNw), [country](https://open.spotify.com/playlist/37i9dQZF1DX3RCeShx2suK?si=H2jOJOSgR2Ww1R6WQnx2jg), [Afropop](https://open.spotify.com/playlist/37i9dQZF1DXdD040nrEzxm?si=hLGA3kd_R6Ka1XKuem_EKw), [Latin](https://open.spotify.com/playlist/2P3A4oybmznGl3rRXfH6YQ?si=Jk8igHZXQQ-FR70N5yzzZg), [gospel](https://open.spotify.com/playlist/37i9dQZF1DX5JHlV94wGBQ?si=h1QOrDGpQxmUKiia-sJlSQ), and [folk](https://open.spotify.com/playlist/37i9dQZF1DWYdLqwKCcDiy?si=DyGovxvzQMmfLqqM3Q-MEw). The top K-pop tracks are a combination of Spotify’s [*Top K-Pop Artists of 2019*](https://open.spotify.com/playlist/37i9dQZF1DWTY99d0AYptp?si=gH6RPsyzRreUzOOu3AJOdg) playlist and [*K-Pop 2019*](https://open.spotify.com/playlist/3gomCvuJDZ8G93g8HNGDXV?si=sRMXVNRYSUu2BdZI45HqqQ) by *NewMusicFriday*. 
+
+<br>
+
+I used the [spotifyr](https://github.com/charlie86/spotifyr) package to retrieve data from [Spotify Web API](https://developer.spotify.com/documentation/web-api/), and the [genius](https://github.com/josiahparry/genius) package to obtain K-pop lyrics from [Genius](https://genius.com). Spotify offers data on a wide range of track features such as name of the track, artist, and album, a popularity rating, and many more. Spotify also records audio features such as *valence*, *danceability*, *acousticness*, and *speechiness*, all of which will be introduced later in detail. Using spotifyr, I was able to obtain a data frame of 63 variables for each track, and I only selected 20 variables that are most relevant for this analysis. The data collection and cleaning processes were quite lengthy. A detailed walk-through can be found in the R scripts. 
+
+<br>
+
+In addition to ggplot2 and the tidyverse, I will also make use of the [Rcolorbrewer](https://cran.r-project.org/web/packages/RColorBrewer/RColorBrewer.pdf) package to change the color of plots, the [scales](https://cran.r-project.org/web/packages/scales/scales.pdf) and [kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html) packages to improve the appearance of tables, the [cowplot](https://www.rdocumentation.org/packages/cowplot/versions/1.1.0) package to make plot grids, the [wordcloud](https://www.rdocumentation.org/packages/wordcloud/versions/2.6) package to make lyric word clouds, and the [fmsb](https://www.rdocumentation.org/packages/fmsb/versions/0.7.0/topics/radarchart) package to make radar charts. 
+
+<br>
+
+# Data Analysis
+
+
+**Loading Packages:**
+
+```{r, message = FALSE}
+library(tidyverse)
+library(RColorBrewer)
+library(kableExtra)
+library(cowplot)
+library(wordcloud)
+library(scales)
+library(fmsb)
+```
+
+
+
+**Reading Processed Data Files:**
+
+```{r, message = FALSE}
+kpop <- read.csv("data/Processed/kpop_combined.csv")
+lyrics_ko <- read_csv("data/Processed/word_count_ko.csv")
+lyrics_eng <- read_csv("data/Processed/word_count_eng.csv")
+alltracks <- read.csv("data/Processed/alltracks.csv")
+```
+
+<br>
+
+## Part 1: Exploring Top K-Pop Tracks of 2019
+<br>
+
+Data analysis in this section is done with the file "kpop_combined.csv", which contains 88 top K-pop tracks from 2019.
+
+<br>
+
+### Top 10 K-Pop Tracks 2019
+
+First, I wanted to look at the top 10 K-pop tracks of 2019. This is done by arranging with regard to the *popularity* rating provided by Spotify. The *popularity* rating is a number between 0 and 100, with 100 being the most popular, and it is calculated based on the number of streams a track has, as well as the recency of streams. Therefore, this ranking better reflects the current popularity of top tracks from 2019, instead of their popularity back in 2019.
+
+```{r}
+kpop %>% 
+  arrange(desc(popularity)) %>% 
+  select(artist.name, track.name, popularity) %>% 
+  head(n = 10) %>% 
+  kbl(caption = "Top 10 K-Pop Tracks in 2019") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F) %>% 
+  column_spec(1, bold = T) %>% 
+  row_spec(1:10, color = "black", background = "#ECFFF0")
+```
+
+<br>
+Unsurprisingly, *Boy With Luv* by BTS tops the chart, followed by the virtual League of Legends girl group K/DA and multiple BLACKPINK tracks. SHAUN and JENNIE (member of BLACKPINK) are the only solo artists who made the list.
+
+<br>
+
+### Types of Artists in K-Pop Top List
+
+Since girl and boy groups play the dominant role in K-pop, I thought it would be interesting to look at the types of artists who made up the top list of 2019. This is done by counting the frequency of each type and creating a bar graph using `geom_bar()`. I classified the K-pop artists into six types: `boy group`, `girl group`, `male solo`, `female solo`, `boy band` (who are instrumentalists), and `mixed group` (mixed-gender group).
+
+```{r}
+kpop %>% 
+  mutate(type = fct_infreq(type)) %>% 
+  ggplot() +
+  geom_bar(aes(x = type, fill = type), show.legend = F) +
+  theme(axis.text.x = element_text(angle = 30, size = 12), 
+        panel.background = element_rect(fill="#F4F6F7")) +
+  scale_fill_brewer(palette = "Pastel2") +
+  labs(title = "Types of Artists in K-Pop Top List")
+```
+
+<br>
+
+While girl and boy groups make up the majority of the list, we still see a decent amount of solo artists, as well as two boy bands and one mixed-gender group, KARD.
+
+<br>
+
+### Audio Features
+
+Next, I will compare some audio features among different types of K-pop artists. I chose *valence*, *energy*, and *danceability* because K-pop is generally perceived as upbeat, intense, and choreography is an indispensable part of K-pop performances. [Spotify](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/) describes these three audio features as follows:
+<br>
+
+- *Valence*: A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+<br>
+- *Energy*: A measure from 0.0 to 1.0 which represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
+<br>
+- *Danceability* describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.
+<br>
+
+In addition, I included track *tempo*, measured in beats per minute (BPM), as a fourth audio feature. I omitted boy bands and mixed-gender groups due to the small sample size. Since `type` is a categorical variable, I used `geom_jitter()` to add random noise so observations don’t overlap. I also used `stat_summary()` to add bars showing the mean.
+
+```{r}
+valence <- kpop %>% 
+  group_by(type) %>% 
+  filter(!(type == "boy band" | type == "mixed group")) %>% 
+  ggplot(aes(x = reorder(type, popularity), y = valence, color = type)) +
+  geom_jitter(alpha = 0.5, show.legend = F) + 
+  stat_summary(fun = mean, geom="crossbar", 
+               width=0.5, show.legend = F) +
+  scale_color_brewer(palette = "Set2") + 
+  theme(axis.text.x = element_text(angle = 30, size = 10),
+        panel.background = element_rect(fill="#F4F6F7")) +
+  labs(title = 'Valence', x = element_blank())
+
+energy <- kpop %>% 
+  group_by(type) %>% 
+  filter(!(type == "boy band" | type == "mixed group")) %>% 
+  ggplot(aes(x = reorder(type, popularity), y = energy, color = type)) +
+  geom_jitter(alpha = 0.5, show.legend = F) + 
+  stat_summary(fun = mean, geom="crossbar", 
+               width=0.5, show.legend = F) +
+  scale_color_brewer(palette = "Set2") + 
+  theme(axis.text.x = element_text(angle = 30, size = 10),
+        panel.background = element_rect(fill="#F4F6F7")) +
+  labs(title = 'Energy', x = element_blank())
+
+danceability <- kpop %>% 
+  group_by(type) %>% 
+  filter(!(type == "boy band" | type == "mixed group")) %>% 
+  ggplot(aes(x = reorder(type, popularity), y = danceability, color = type)) +
+  geom_jitter(alpha = 0.5, show.legend = F) + 
+  stat_summary(fun = mean, geom="crossbar", 
+               width=0.5, show.legend = F) +
+  scale_color_brewer(palette = "Set2") + 
+  theme(axis.text.x = element_text(angle = 30, size = 10),
+        panel.background = element_rect(fill="#F4F6F7")) +
+  labs(title = 'Danceability', x = element_blank())
+
+tempo <- kpop %>% 
+  group_by(type) %>% 
+  filter(!(type == "boy band" | type == "mixed group")) %>% 
+  ggplot(aes(x = type, y = tempo, color = type)) +
+  geom_jitter(alpha = 0.4, show.legend = F) + 
+  stat_summary(fun = mean, geom="crossbar", 
+               width=0.5, show.legend = F) +
+  scale_color_brewer(palette = "Set2") + 
+  theme(axis.text.x = element_text(angle = 30, size = 10),
+        panel.background = element_rect(fill="#F4F6F7")) +
+  labs(title = 'Track Tempo', x = element_blank())
+
+plot_grid(valence, energy, danceability, tempo)
+```
+
+<br>
+On average, tracks by girl groups are the most positive, energetic, and danceable. Boy groups have the fastest songs, and male solo artists tend to have songs that are softer and slower. However, it is worth noting that the observations are quite disperse, indicating that my sample of K-pop tracks vary in style and emotions.
+
+<br>
+
+### Most Common Key
+
+My friend used to joke that whenever K-pop idols pull off a high note, it’s always that A4 note for male idols and E5 for female idols. Therefore, I thought it would also be interesting to look at the most common *key* and *mode* (major or minor) used in top K-pop tracks. The variable `key_mode` combines the two, and I simply counted the frequency of observations in `key_mode`.
+
+```{r, message = FALSE}
+kpop_keys <- kpop %>%
+  group_by(key_mode) %>%
+  summarize(count = n())
+
+kpop_keys %>% 
+  select(key_mode, count) %>% 
+  arrange(desc(count)) %>% 
+  head(n = 5) %>% 
+  kbl(caption = "Most Common Key and Mode") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F) %>% 
+  column_spec(1, bold = T) %>% 
+  row_spec(1:5, color = "black", background = "#ECFFF0")
+```
+
+<br>
+The most frequently used keys are G-major and C-major, which are also quite common in other music genres because they are easy to play on instruments such as the piano and strings. This indicates that my friend's impression may be biased, as A4 and E5 are not the root or dominant notes of G-major and C-major.
+
+<br>
+
+### Word Clouds of K-Pop Lyrics
+
+Next, let’s take a look at lyrics. What are some of the main themes and topics covered in K-pop tracks? In order to gather a larger sample, I scraped lyrics for not only the 88 top tracks, but also the EPs and albums in which those tracks are featured. Using the genius package, I obtained lyrics for a total of 464 K-pop songs that were popular in 2019. 
+<br>
+
+First, I dissected the lyrics into individual words. Since K-pop songs often contain English lyrics, I counted the frequency of both English and Korean words. After removing stop words (such as “a,” “the,” “than,” and “ooh”), I created word clouds for the most frequently used words in K-pop lyrics. In order to display the Korean characters normally, the font family needs to be changed, so I only included it as an image. However, I included the English word cloud here as an output. I did not put all codes here because the text-tidying process involves writing files. All codes can be found in the "data_cleaning" R script. 
+
+```{r}
+wordcloud_eng <- wordcloud(words = lyrics_eng$word, freq = lyrics_eng$n, 
+                          max.words = 40, random.order = FALSE, rot.per = 0,
+                          colors = RColorBrewer::brewer.pal(6, "Pastel2"))
+```
+
+```{r pressure, echo=FALSE, out.width = '40%', fig.align = 'center'}
+
+knitr::include_graphics("images/wordcloud_ko.png")
+
+```
+
+For me, these words seem to be very present-focused, with love and bodily experiences as central themes. I also see a subtle contrast between the types of emotions portrayed with Korean and English lyrics. While the English words tend to be upbeat and party-themed, the Korean words seem to be more emotional. For example, “순간” is “moment,” “함께” is “together,” “시간” is “time,” “괜찮아” means “it’s okay,” and “눈빛” means “expression in one’s eyes.” All of these words are quite different than those in the English word cloud.
+
+<br>
+
+
+## Part 2: Comparing K-Pop to Major Music Genres
+<br>
+
+Data analysis in this section is done with the file "alltracks.csv". In order to compare the audio features of K-pop with other major music genres, I obtained data for 50 tracks from each of 11 different genres. After removing tracks that appeared in multiple playlists, I ended up with a total of 583 songs from 12 genres (including K-pop).
+
+<br>
+
+### Average Track Loudness
+
+One interesting finding from my data exploration is the average loudness of tracks from different genres. Spotify records loudness in decibels (dB), so loudness values are negative, and louder tracks have smaller absolute values (e.g. -5dB is louder than -20dB). Therefore, I obtained the plot below by grouping by genre, and ranking the negative reciprocal of average loudness values.
+<br>
+
+*Note: `cng` is short for Christian and gospel, and `fna` is short for folk and Americana.*
+
+```{r}
+alltracks %>% 
+  group_by(genre) %>% 
+  mutate(mean = mean(-1 / loudness)) %>% 
+  ggplot(aes(x = reorder(genre, mean), y = mean)) +
+  geom_col(aes(fill = genre), show.legend = FALSE) +
+  coord_flip() +
+  scale_fill_brewer(palette = "Set3") +
+  labs(x = "Genre", y = "Loudness", title = "Average Relative Loudness by Genre") +
+  theme(panel.background = element_rect(fill="#F4F6F7"),
+        axis.text.y = element_text(size = 13))
+```
+
+<br>
+I was surprised to find that K-pop tracks are actually the loudest among all 12 genres. Mastering engineers sometimes like to put a “brick wall” limiter on tracks to make them louder, since louder tracks are supposedly more captivating (I am not a fan of this mixing technique, though).
+
+<br>
+
+### Proportion of Singles
+
+I always thought of K-pop as a genre that thrives on singles and EPs instead of full-length albums. K-pop groups usually have more than one comeback (a K-pop-specific word for releasing new music) per year, and they like to experiment with different styles, concepts, and choreography, so it is more realistic for them to work on shorter and more focused projects. Since Spotify provides data on the type of album a track belongs to, I calculated, within each genre, the proportion of tracks that belong to a single.
+
+```{r, message = FALSE}
+singlepercent <- alltracks %>%
+  group_by(genre, album.type) %>%
+  filter(album.type == "single") %>% 
+  summarize(
+    single.no = n(),
+    percentage = single.no / 50)
+  
+singlepercent %>% 
+  select(genre, percentage) %>% 
+  rename(singles = percentage) %>% 
+  arrange(desc(singles)) %>% 
+  kbl() %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F) %>% 
+  column_spec(1, bold = T) %>% 
+  row_spec(1:12, color = "black", background = "#ECFFF0")
+```
+
+<br>
+In fact, dance is the genre with the highest proportion of singles; only 4% of the top 50 dance tracks belong to an album. As expected, K-pop also has a high proportion of singles; 68% of the top 50 K-pop tracks were released as singles instead of a part of a larger project.
+
+<br>
+
+### Audio Features
+
+Last, but not least, I want to compare the audio features of all 12 genres using radar charts. I chose six audio features: *danceability*, *energy*, and *valence*, which were described previously, as well as *liveness*, *acousticness*, and *speechiness*, which Spotify describes as follows:
+<br>
+
+- *Liveness*: Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live.
+<br>
+- *Acousticness*: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
+<br>
+- *Speechiness*: Detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value.
+<br>
+
+Radar charts from the `fmsb` package only take in very specific types of data frames. To create radar charts, I wrote a function to calculate the average attribute values for all audio features, as well as the maximum and minimum values across genres, which were used to define boundaries for the radar chart. 
+
+```{r}
+# Calculating mean values of audio features
+features <- alltracks %>% 
+  select(danceability, energy, speechiness, acousticness, liveness, valence, genre) %>% 
+  group_by(genre) %>% 
+  mutate(danceability = mean(danceability),
+         energy = mean(energy),
+         speechiness = mean(speechiness),
+         acousticness = mean(acousticness),
+         liveness = mean(liveness),
+         valence = mean(valence)) %>% 
+  distinct(genre, .keep_all = TRUE) %>% 
+  ungroup()
+
+# writing function to find max and min of each feature
+colMax <- function (x) { apply(x, MARGIN=c(2), max) }
+colMin <- function (x) { apply(x, MARGIN=c(2), min) }
+maxmin <- data.frame(max=colMax(features), min=colMin(features)) %>% 
+  t() %>% as_tibble() %>% select(-genre) %>% mutate(genre = "NA")
+
+# joining data frames and preparing data for radar chart
+features2 <- rbind(maxmin, features) %>% as.data.frame()
+rownames(features2) <- 
+  c("max", "min", "pop", "rnb", "hiphop", "indie", "cng", "fna", "latin", "afropop", "rock", "country","dance", "kpop")
+```
+
+<br>
+
+Finally, I plotted radar charts for each of the 12 genres.
+
+```{r, fig.show="hold", out.width = "33%"}
+features2 %>% 
+  filter(genre %in% c("kpop", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#FFA0FB", pfcol = scales::alpha("#FFA0FB", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "K-pop",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("pop", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#F1948A", pfcol = scales::alpha("#F1948A", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Pop",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("dance", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#85C1E9", pfcol = scales::alpha("#85C1E9", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Dance",
+             vlcex = 1.4, cex.main = 1.5)
+```
+
+```{r, fig.show="hold", out.width = "33%"}
+
+features2 %>% 
+  filter(genre %in% c("hiphop", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#F39C12", pfcol = scales::alpha("#F39C12", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Hip Hop",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("rnb", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#34495E", pfcol = scales::alpha("#34495E", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "R&B",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("cng", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#C0392B", pfcol = scales::alpha("#C0392B", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Gospel",
+             vlcex = 1.4, cex.main = 1.5)
+```
+
+```{r, fig.show="hold", out.width = "33%"}
+features2 %>% 
+  filter(genre %in% c("country", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#2ECC71", pfcol = scales::alpha("#2ECC71", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Country",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("afropop", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#8E44AD", pfcol = scales::alpha("#8E44AD", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Afropop",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("fna", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#D4AC0D", pfcol = scales::alpha("#D4AC0D", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Folk",
+             vlcex = 1.4, cex.main = 1.5)
+```
+
+```{r, fig.show="hold", out.width = "33%"}
+
+features2 %>% 
+  filter(genre %in% c("indie", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#4346C7", pfcol = scales::alpha("#4346C7", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Indie",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("latin", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#D0FB68", pfcol = scales::alpha("#D0FB68", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Latin",
+             vlcex = 1.4, cex.main = 1.5)
+
+features2 %>% 
+  filter(genre %in% c("rock", "NA")) %>% 
+  select(-genre) %>% 
+  sapply(as.numeric) %>% 
+  as.data.frame() %>% 
+  radarchart(pcol = "#8D6730", pfcol = scales::alpha("#8D6730", 0.3), plwd = 3, 
+             cglcol="grey", cglty = 1, axislabcol="black", cglwd = 0.8, title = "Rock",
+             vlcex = 1.4, cex.main = 1.5)
+```
+
+<br>
+Just by looking at the shape of the charts above, K-pop is perhaps the most similar to dance- both are high on *energy*, low on *speechiness* and *acousticness*, and middle-of-the-road on *danceability* and *valence*. Isn’t it funny that dance and K-pop are actually not that *danceable*?
+<br>
+
+Although this data exploration project is supposed to be about K-pop, I also enjoyed looking at the characteristics of other genres. In fact, these radar charts confirmed my impressions of many genres: hip hop has the highest *speechiness*, rock and dance are the most energetic, and Latin and Afropop are the “happiest” genres. Folk is the most acoustic genre, and K-pop and rock have the highest *liveness*. 
+
+<br>
+
+# Conclusion
+<br>
+
+From this exploration data analysis, I was able to learn that K-pop is a genre in which girl and boy groups, instead of solo artists, dominate the charts. K-pop artists tend to release new music as singles rather than full-length albums. K-pop music tend to be loud, energetic, performance and audience-oriented (high *liveness*), with a more produced and electronic sound. K-pop lyrics tend to be present-focused, with main themes such as love, partying, and bodily experiences, and Korean and English lyrics in K-pop portray slightly different emotions. As a musician, I discourage the use of over-simplistic approaches when defining genres, but as an amateur data scientist, I had a lot of fun exploring music data and making visualizations of audio features that I could not put into words.
+
+
+
