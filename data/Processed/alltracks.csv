@@ -1,0 +1,584 @@
+,artist.name,track.name,album.name,album.type,popularity,genre,danceability,energy,key,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature,key_name,mode_name,key_mode
+1,Lewis Capaldi,Someone You Loved,Divinely Uninspired To A Hellish Extent,album,91,pop,0.501,0.405,1,-5.679,0.0319,0.751,0,0.105,0.446,109.891,4,C#,major,C# major
+2,Post Malone,Circles,Hollywood's Bleeding,album,90,pop,0.695,0.762,0,-3.497,0.0395,0.192,0.00244,0.0863,0.553,120.042,4,C,major,C major
+3,Tones And I,Dance Monkey,Dance Monkey (Stripped Back) / Dance Monkey,single,89,pop,0.824,0.588,6,-6.4,0.0924,0.692,0.000104,0.149,0.513,98.027,4,F#,minor,F# minor
+4,Maroon 5,Memories,Memories,single,89,pop,0.764,0.32,11,-7.209,0.0546,0.837,0,0.0822,0.575,91.019,4,B,major,B major
+5,Billie Eilish,bad guy,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",album,88,pop,0.701,0.425,7,-10.965,0.375,0.328,0.13,0.1,0.562,135.128,4,G,major,G major
+6,Ariana Grande,7 rings,"thank u, next",album,87,pop,0.778,0.317,1,-10.732,0.334,0.592,0,0.0881,0.327,140.048,4,C#,minor,C# minor
+7,Arizona Zervas,ROXANNE,ROXANNE,single,87,pop,0.621,0.601,6,-5.616,0.148,0.0522,0,0.46,0.457,116.735,5,F#,minor,F# minor
+8,Dua Lipa,Don't Start Now,Don't Start Now,single,86,pop,0.794,0.793,11,-4.521,0.0842,0.0125,0,0.0952,0.677,123.941,4,B,minor,B minor
+9,Alec Benjamin,Let Me Down Slowly,Narrated For You,album,85,pop,0.652,0.557,1,-5.714,0.0318,0.74,0,0.124,0.483,150.073,4,C#,minor,C# minor
+10,Sam Smith,Dancing With A Stranger (with Normani),Dancing With A Stranger (with Normani),single,84,pop,0.741,0.52,8,-7.513,0.0656,0.45,1.97E-06,0.222,0.347,102.998,4,G#,major,G# major
+11,Lil Tecca,Ransom,We Love You Tecca,album,84,pop,0.745,0.642,7,-6.257,0.287,0.0204,0,0.0658,0.226,179.974,4,G,minor,G minor
+12,Jonas Brothers,Sucker,Happiness Begins,album,84,pop,0.842,0.734,1,-5.065,0.0588,0.0427,0,0.106,0.952,137.958,4,C#,minor,C# minor
+13,Chris Brown,No Guidance (feat. Drake),Indigo,album,84,pop,0.698,0.454,1,-6.756,0.151,0.123,0,0.155,0.137,92.932,4,C#,minor,C# minor
+14,Lil Nas X,Old Town Road - Remix,7 EP,single,83,pop,0.878,0.619,6,-5.56,0.102,0.0533,0,0.113,0.639,136.041,4,F#,major,F# major
+15,Shawn Mendes,Señorita,Shawn Mendes (Deluxe),album,82,pop,0.759,0.548,9,-6.049,0.029,0.0392,0,0.0828,0.749,116.967,4,A,minor,A minor
+16,J. Cole,MIDDLE CHILD,MIDDLE CHILD,single,82,pop,0.837,0.364,8,-11.713,0.276,0.149,0,0.271,0.463,123.984,4,G#,major,G# major
+17,Y2K,Lalala,Lalala,single,82,pop,0.843,0.391,2,-7.899,0.0845,0.181,0,0.137,0.496,129.972,4,D,major,D major
+18,"Tyler, The Creator",EARFQUAKE,IGOR,album,81,pop,0.554,0.498,9,-8.866,0.0685,0.23,5.98E-06,0.795,0.413,79.635,4,A,major,A major
+19,Billie Eilish,bury a friend,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",album,81,pop,0.905,0.389,8,-14.505,0.332,0.74,0.162,0.106,0.196,120.046,4,G#,major,G# major
+20,Mabel,Don't Call Me Up,Ivy To Roses (Mixtape),album,81,pop,0.674,0.881,9,-2.853,0.147,0.296,3.01E-06,0.0793,0.234,98.994,4,A,major,A major
+21,Dominic Fike,3 Nights,"Don't Forget About Me, Demos",single,80,pop,0.815,0.518,7,-6.594,0.0897,0.223,0,0.104,0.877,151.891,4,G,minor,G minor
+22,Ariana Grande,"break up with your girlfriend, i'm bored","thank u, next",album,80,pop,0.726,0.554,5,-5.29,0.0917,0.0421,0,0.106,0.335,169.999,4,F,minor,F minor
+23,BLACKPINK,Kill This Love,KILL THIS LOVE,single,80,pop,0.738,0.861,2,-4.141,0.237,0.32,0.00175,0.325,0.58,131.974,4,D,major,D major
+24,DaBaby,Suge,Baby On Baby,album,79,pop,0.876,0.662,2,-6.482,0.426,0.0608,0,0.127,0.844,75.445,4,D,minor,D minor
+25,Bazzi,Paradise,Soul Searching,album,79,pop,0.844,0.644,11,-6.273,0.0479,0.0828,0,0.113,0.591,122.061,4,B,minor,B minor
+26,ROSALÍA,Con Altura,Con Altura,single,79,pop,0.882,0.689,6,-4.027,0.124,0.39,0.00325,0.0501,0.746,97.963,4,F#,major,F# major
+27,Ed Sheeran,I Don't Care (with Justin Bieber),No.6 Collaborations Project,album,79,pop,0.798,0.676,6,-5.041,0.0442,0.0902,0,0.0894,0.843,101.956,4,F#,major,F# major
+28,Taylor Swift,Lover,Lover,album,79,pop,0.359,0.543,7,-7.582,0.0919,0.492,1.58E-05,0.118,0.453,68.534,4,G,major,G major
+29,Katy Perry,Never Really Over,Never Really Over,single,79,pop,0.77,0.882,8,-4.792,0.0602,0.194,0,0.316,0.385,99.991,4,G#,major,G# major
+30,Marshmello,Here With Me,Here With Me,single,78,pop,0.791,0.565,5,-3.933,0.0439,0.0623,0,0.156,0.181,99.961,4,F,minor,F minor
+31,Kehlani,Nights Like This (feat. Ty Dolla $ign),While We Wait,album,78,pop,0.61,0.725,8,-5.131,0.15,0.367,0,0.154,0.291,146.163,4,G#,major,G# major
+32,Ed Sheeran,Beautiful People (feat. Khalid),No.6 Collaborations Project,album,77,pop,0.64,0.647,5,-8.114,0.186,0.124,0,0.0801,0.546,92.979,4,F,minor,F minor
+33,Khalid,Talk (feat. Disclosure),Free Spirit,album,76,pop,0.901,0.4,0,-8.575,0.126,0.051,0,0.0599,0.346,135.984,4,C,major,C major
+34,Normani,Motivation,Motivation,single,76,pop,0.599,0.887,4,-3.967,0.0984,0.0192,1.21E-06,0.3,0.881,170.918,4,E,major,E major
+35,SHAED,Trampoline (with ZAYN),Trampoline (with ZAYN),single,76,pop,0.619,0.459,7,-5.782,0.0334,0.56,0,0.137,0.498,126.803,4,G,minor,G minor
+36,NF,Time,The Search,album,76,pop,0.677,0.688,0,-4.058,0.0633,0.138,0,0.114,0.198,98.049,4,C,minor,C minor
+37,Megan Thee Stallion,Hot Girl Summer (feat. Nicki Minaj & Ty Dolla $ign),Hot Girl Summer (feat. Nicki Minaj & Ty Dolla $ign),single,75,pop,0.872,0.814,0,-4.568,0.155,0.00485,1.96E-06,0.214,0.57,98.985,4,C,major,C major
+38,Lizzo,Truth Hurts,Cuz I Love You (Deluxe),album,71,pop,0.715,0.624,4,-3.046,0.114,0.11,0,0.123,0.412,158.087,4,E,minor,E minor
+39,FLETCHER,Undrunk,you ruined new york city for me,single,71,pop,0.442,0.579,5,-6.484,0.145,0.489,1.04E-06,0.126,0.546,83.336,4,F,major,F major
+40,Lizzo,Good as Hell,Good as Hell,single,69,pop,0.682,0.919,0,-3.18,0.0875,0.256,0,0.442,0.535,95.982,4,C,minor,C minor
+41,Dermot Kennedy,Outnumbered,Without Fear,album,69,pop,0.614,0.684,0,-5.79,0.157,0.247,0,0.0976,0.258,156.85,4,C,major,C major
+42,blackbear,hot girl bummer,hot girl bummer,single,55,pop,0.778,0.559,6,-7.109,0.0776,0.128,0,0.399,0.678,129.989,1,F#,minor,F# minor
+43,Maren Morris,The Bones,GIRL,album,25,pop,0.612,0.57,11,-6.642,0.0347,0.279,0,0.0963,0.335,77.004,4,B,minor,B minor
+44,Lauv,i'm so tired...,i'm so tired...,single,15,pop,0.599,0.733,11,-7.058,0.203,0.176,0,0.242,0.534,102.211,4,B,major,B major
+45,Selena Gomez,Lose You To Love Me,Lose You To Love Me,single,15,pop,0.505,0.34,4,-9.005,0.0438,0.576,0,0.21,0.0916,101.993,4,E,major,E major
+46,Halsey,Graveyard,Graveyard,single,13,pop,0.667,0.583,11,-5.127,0.0747,0.231,4.48E-05,0.181,0.187,92.043,4,B,minor,B minor
+47,Harry Styles,Lights Up,Lights Up,single,12,pop,0.585,0.62,3,-8.09,0.0327,0.0426,0.00224,0.15,0.281,101.939,4,D#,minor,D# minor
+48,YG,Go Loko,Go Loko,single,11,pop,0.88,0.67,2,-5.188,0.0429,0.299,5.08E-06,0.0677,0.142,100.995,4,D,major,D major
+49,The Chainsmokers,Who Do You Love,World War Joy...Takeaway,single,8,pop,0.51,0.835,3,-4.673,0.0447,0.00791,0,0.219,0.435,140.024,4,D#,major,D# major
+50,Ali Gatie,It's You,It's You,single,8,pop,0.732,0.463,11,-6.972,0.0287,0.374,0,0.194,0.397,95.971,4,B,minor,B minor
+51,DaniLeigh,Easy - Remix,Easy (Remix),single,77,rnb,0.799,0.301,7,-11.361,0.185,0.195,0,0.0816,0.511,100.026,4,G,major,G major
+52,Quality Control,"Leave Em Alone (Layton Greene, Lil Baby feat. City Girls, PnB Rock)",Quality Control: Control The Streets Volume 2,album,76,rnb,0.76,0.755,6,-4.735,0.19,0.0163,2.95E-06,0.0909,0.517,101.993,4,F#,minor,F# minor
+53,Summer Walker,Come Thru (with Usher),Over It,album,75,rnb,0.679,0.728,5,-3.092,0.154,0.159,0,0.107,0.46,152.001,4,F,minor,F minor
+54,H.E.R.,Could've Been (feat. Bryson Tiller),I Used To Know Her,album,74,rnb,0.455,0.352,1,-11.733,0.25,0.654,3.72E-06,0.249,0.407,103.342,4,C#,minor,C# minor
+55,Jorja Smith,Be Honest (feat. Burna Boy),Be Honest (feat. Burna Boy),single,74,rnb,0.757,0.737,4,-6.728,0.114,0.311,0,0.113,0.635,98.057,4,E,minor,E minor
+56,YK Osiris,Worth It,The Golden Child,album,72,rnb,0.749,0.535,5,-4.054,0.0638,0.517,0,0.0942,0.459,124.008,5,F,minor,F minor
+57,Wale,On Chill (feat. Jeremih),Wow... That's Crazy,album,72,rnb,0.597,0.733,1,-6.017,0.41,0.134,0,0.159,0.639,171.016,4,C#,major,C# major
+58,Jacquees,You,4275 (Bonus Version),album,71,rnb,0.735,0.453,8,-8.264,0.0602,0.413,0,0.104,0.335,115.002,4,G#,minor,G# minor
+59,Chris Brown,Heat (feat. Gunna),Indigo,album,71,rnb,0.62,0.613,0,-5.83,0.0795,0.0607,0,0.117,0.483,82.43,4,C,major,C major
+60,SiR,Hair Down (feat. Kendrick Lamar),Chasing Summer,album,70,rnb,0.793,0.49,8,-10.984,0.285,0.25,1.00E-04,0.432,0.468,120.099,4,G#,minor,G# minor
+61,Bryson Tiller,Blame,Blame,single,70,rnb,0.73,0.38,11,-8.558,0.0988,0.0319,4.93E-05,0.12,0.323,114.973,4,B,minor,B minor
+62,Snoh Aalegra,I Want You Around,#NAME?,album,70,rnb,0.705,0.433,4,-9.706,0.204,0.388,0.134,0.0841,0.602,168.006,4,E,major,E major
+63,Mahalia,What You Did (feat. Ella Mai),LOVE AND COMPROMISE,album,70,rnb,0.734,0.511,0,-4.905,0.0592,0.148,0,0.29,0.727,124.995,4,C,minor,C minor
+64,Blue Ivy,BROWN SKIN GIRL,The Lion King: The Gift,album,69,rnb,0.603,0.602,6,-7.083,0.23,0.049,0,0.279,0.595,119.703,5,F#,major,F# major
+65,Ari Lennox,Shea Butter Baby (with J. Cole),Shea Butter Baby,album,68,rnb,0.709,0.49,4,-7.457,0.0757,0.11,0.00345,0.12,0.0397,155.069,4,E,minor,E minor
+66,Ella Mai,Shot Clock,Ella Mai,album,68,rnb,0.512,0.512,4,-6.008,0.285,0.654,0,0.148,0.434,95.11,1,E,minor,E minor
+67,Anderson .Paak,Make It Better (feat. Smokey Robinson),Ventura,album,68,rnb,0.676,0.56,4,-6.024,0.0643,0.0112,0.00403,0.137,0.551,178.555,4,E,minor,E minor
+68,Ty Dolla $ign,Purple Emoji (feat. J. Cole),Purple Emoji (feat. J Cole),single,67,rnb,0.707,0.543,8,-4.61,0.279,0.151,0,0.384,0.824,144.18,4,G#,major,G# major
+69,Majid Jordan,Caught Up (feat. Khalid),Caught Up (feat. Khalid),single,67,rnb,0.678,0.438,9,-8.847,0.0577,0.29,0,0.0838,0.501,81.498,4,A,minor,A minor
+70,Daniel Caesar,LOVE AGAIN,CASE STUDY 01,album,66,rnb,0.553,0.441,5,-6.411,0.0918,0.41,2.57E-06,0.107,0.525,76.988,4,F,major,F major
+71,DJ Khaled,Just Us (feat. SZA),Father Of Asahd,album,65,rnb,0.639,0.859,9,-2.758,0.147,0.135,0,0.129,0.566,93.132,4,A,minor,A minor
+72,Ari Lennox,BMO,Shea Butter Baby,album,65,rnb,0.72,0.647,1,-5.411,0.0642,0.0116,0.000206,0.571,0.809,157.877,4,C#,minor,C# minor
+73,Jessie Reyez,Imported (with 6LACK),Imported (with 6LACK),single,65,rnb,0.726,0.636,7,-3.615,0.0496,0.199,0,0.111,0.362,111.097,4,G,major,G major
+74,SiR,You Can't Save Me,Chasing Summer,album,64,rnb,0.623,0.585,0,-7.895,0.124,0.0628,0.000155,0.119,0.538,158.273,4,C,major,C major
+75,Lucky Daye,Roll Some Mo,Painted,album,63,rnb,0.389,0.507,11,-9.026,0.0621,0.259,0.0441,0.142,0.364,74.718,4,B,major,B major
+76,Dreamville,Got Me (with Ari Lennox & Omen feat. Ty Dolla $ign & Dreezy),Revenge Of The Dreamers III,album,63,rnb,0.664,0.61,7,-6.432,0.339,0.145,0,0.097,0.472,76.024,4,G,minor,G minor
+77,Alicia Keys,Show Me Love,Show Me Love,single,62,rnb,0.531,0.491,5,-5.47,0.042,0.447,0,0.0703,0.521,129.38,4,F,minor,F minor
+78,Jhené Aiko,Triggered - Remix,Triggered (Remix),single,62,rnb,0.487,0.439,0,-11.316,0.392,0.742,0,0.091,0.369,91.582,4,C,major,C major
+79,Teyana Taylor,How You Want It?,How You Want It?,single,61,rnb,0.492,0.698,5,-2.801,0.184,0.292,0,0.0989,0.749,94.59,4,F,minor,F minor
+80,YK Osiris,Ride,The Golden Child,album,60,rnb,0.691,0.621,7,-4.262,0.0538,0.341,0,0.132,0.392,132.946,4,G,minor,G minor
+81,Kiana Ledé,EX - Remix,EX (Remix),single,58,rnb,0.775,0.537,0,-6.978,0.141,0.326,0,0.0792,0.403,73.484,4,C,major,C major
+82,Ncredible Gang,"NoBody Else (feat. Nick Cannon, Ty Dolla $ign & Jacquees)","NoBody Else (feat. Nick Cannon, Ty Dolla $ign and Jacquees)",single,55,rnb,0.801,0.501,0,-6.364,0.269,0.188,0,0.0211,0.902,140.077,4,C,major,C major
+83,H.E.R.,Hard Place - Single Version,I Used To Know Her,album,55,rnb,0.61,0.765,9,-4.095,0.0966,0.122,1.69E-05,0.318,0.439,160.046,4,A,major,A major
+84,Dreamville,Self Love (with Ari Lennox & Bas feat. Baby Rose),Revenge Of The Dreamers III,album,54,rnb,0.761,0.697,5,-6.164,0.0568,0.186,0,0.126,0.197,106.051,4,F,major,F major
+85,Rotimi,Love Riddim,Love Riddim,single,51,rnb,0.781,0.633,4,-5.616,0.0351,0.311,7.27E-06,0.0964,0.795,107.074,4,E,minor,E minor
+86,Tank,I Don't Think You're Ready,ELEVATION,album,51,rnb,0.782,0.491,2,-5.554,0.26,0.641,0.00743,0.241,0.664,135.961,4,D,major,D major
+87,Robin Thicke,That's What Love Can Do,That's What Love Can Do,single,49,rnb,0.649,0.414,6,-7.89,0.0259,0.443,0.00913,0.157,0.376,85.957,4,F#,major,F# major
+88,PJ Morton,BUILT FOR LOVE (feat. Jazmine Sullivan),PAUL,album,48,rnb,0.657,0.455,5,-10.586,0.0667,0.586,1.87E-05,0.18,0.488,129.943,4,F,major,F major
+89,Beyoncé,Before I Let Go - Homecoming Live Bonus Track,HOMECOMING: THE LIVE ALBUM,album,46,rnb,0.71,0.844,6,-5.589,0.0968,0.0699,0,0.354,0.469,103.009,4,F#,minor,F# minor
+90,Raphael Saadiq,Something Keeps Calling (feat. Rob Bacon),Jimmy Lee,album,44,rnb,0.614,0.657,7,-7.081,0.0361,0.238,1.85E-05,0.452,0.561,79.978,4,G,major,G major
+91,Luke James,go girl,go girl,single,38,rnb,0.703,0.705,6,-3.984,0.154,0.153,0,0.49,0.708,140.934,4,F#,minor,F# minor
+92,The Weeknd,Heartless,Heartless,single,14,rnb,0.531,0.75,10,-5.831,0.111,0.00632,7.60E-05,0.117,0.198,169.954,4,A#,minor,A# minor
+93,Tory Lanez,Jerry Sprunger (with T-Pain),Jerry Sprunger (with T-Pain),single,2,rnb,0.694,0.744,0,-5.334,0.297,0.144,0,0.0905,0.425,99.941,4,C,minor,C minor
+94,Summer Walker,Girls Need Love (with Drake) - Remix,Girls Need Love (with Drake) [Remix],single,0,rnb,0.656,0.432,6,-9.481,0.217,0.443,0,0.132,0.0897,97.022,4,F#,minor,F# minor
+95,Pink Sweat$,Honesty,Honesty,single,0,rnb,0.616,0.204,6,-11.421,0.0331,0.919,0,0.106,0.419,79.826,4,F#,minor,F# minor
+96,Arin Ray,Change (with Kehlani),Change (with Kehlani),single,0,rnb,0.712,0.473,6,-4.413,0.0693,0.057,0,0.182,0.327,86.965,4,F#,minor,F# minor
+97,Travis Scott,HIGHEST IN THE ROOM,HIGHEST IN THE ROOM,single,88,hiphop,0.598,0.427,7,-8.764,0.0317,0.0546,5.83E-06,0.21,0.0605,76.469,4,G,minor,G minor
+98,Mustard,Ballin' (with Roddy Ricch),Perfect Ten,album,84,hiphop,0.809,0.545,7,-6.678,0.0735,0.392,0,0.151,0.244,97.008,4,G,major,G major
+99,Post Malone,Wow.,Hollywood's Bleeding,album,84,hiphop,0.829,0.539,11,-7.359,0.208,0.136,1.78E-06,0.103,0.388,99.96,4,B,minor,B minor
+100,DaBaby,BOP,KIRK,album,84,hiphop,0.769,0.787,11,-3.909,0.367,0.189,0,0.129,0.836,126.77,4,B,major,B major
+101,Juice WRLD,Bandit (with YoungBoy Never Broke Again),Bandit (with YoungBoy Never Broke Again),single,84,hiphop,0.474,0.631,5,-5.884,0.343,0.0687,0,0.132,0.425,180.051,4,F,minor,F minor
+102,Meek Mill,Going Bad (feat. Drake),Championships,album,82,hiphop,0.889,0.496,4,-6.365,0.0905,0.259,0,0.252,0.544,86.003,4,E,minor,E minor
+103,Polo G,Pop Out (feat. Lil Tjay),Die A Legend,album,82,hiphop,0.772,0.639,1,-7.119,0.467,0.15,0,0.0698,0.261,168.112,4,C#,major,C# major
+104,Drake,Money In The Grave (Drake ft. Rick Ross),The Best In The World Pack,single,82,hiphop,0.831,0.502,10,-4.045,0.046,0.101,0,0.122,0.101,100.541,4,A#,minor,A# minor
+105,A Boogie Wit da Hoodie,Swervin (feat. 6ix9ine),Hoodie SZN,album,81,hiphop,0.581,0.662,9,-5.239,0.303,0.0153,0,0.111,0.434,93.023,4,A,major,A major
+106,21 Savage,a lot,i am > i was,album,79,hiphop,0.837,0.636,1,-7.643,0.086,0.0395,0.00125,0.342,0.274,145.972,4,C#,major,C# major
+107,Baby Keem,ORANGE SODA,DIE FOR MY BITCH,album,79,hiphop,0.83,0.564,1,-7.822,0.235,0.177,0,0.128,0.107,85.042,4,C#,major,C# major
+108,Mustard,Pure Water (with Migos),Perfect Ten,album,79,hiphop,0.682,0.559,0,-5.545,0.127,0.174,0,0.344,0.137,202.015,4,C,major,C major
+109,Ski Mask The Slump God,Faucet Failure,STOKELEY,album,78,hiphop,0.935,0.552,10,-9.373,0.335,0.111,0,0.0952,0.615,99.993,4,A#,minor,A# minor
+110,Saweetie,My Type,ICY,album,77,hiphop,0.899,0.811,2,-6.294,0.258,0.000677,0,0.0672,0.587,105.038,4,D,major,D major
+111,Lil Uzi Vert,Sanguine Paradise,Sanguine Paradise,single,77,hiphop,0.729,0.603,6,-6.736,0.0666,0.0948,0,0.113,0.207,134.972,4,F#,minor,F# minor
+112,Young Thug,Hot (feat. Gunna),So Much Fun,album,76,hiphop,0.855,0.651,0,-8.044,0.235,0.063,0,0.0772,0.559,111.997,4,C,minor,C minor
+113,Young Thug,The London (feat. J. Cole & Travis Scott),The London (feat. J. Cole & Travis Scott),single,76,hiphop,0.796,0.586,4,-6.946,0.147,0.0247,0,0.132,0.179,97.981,4,E,minor,E minor
+114,YoungBoy Never Broke Again,Make No Sense,AI YoungBoy 2,album,76,hiphop,0.876,0.733,10,-4.478,0.333,0.0208,0,0.0999,0.962,154.904,4,A#,minor,A# minor
+115,Megan Thee Stallion,Cash Shit (feat. DaBaby),Fever,album,75,hiphop,0.921,0.635,1,-4.904,0.416,0.0218,0,0.0946,0.549,130.028,4,C#,major,C# major
+116,Quality Control,Baby (Lil Baby feat. DaBaby),Quality Control: Control The Streets Volume 2,album,75,hiphop,0.97,0.463,10,-7.259,0.366,0.0957,0,0.151,0.46,108.003,4,A#,major,A# major
+117,City Girls,Act Up,Girl Code,album,74,hiphop,0.938,0.638,8,-4.713,0.189,0.0167,0,0.111,0.313,97.075,4,G#,major,G# major
+118,YG,"Go Loko (feat. Tyga, Jon Z)",4REAL 4REAL,album,74,hiphop,0.88,0.67,2,-5.177,0.0468,0.325,4.17E-06,0.0662,0.131,101.008,4,D,major,D major
+119,Lil Nas X,Panini,7 EP,single,73,hiphop,0.703,0.594,5,-6.146,0.0752,0.342,0,0.123,0.475,153.848,4,F,minor,F minor
+120,Offset,Clout (feat. Cardi B),FATHER OF 4,album,73,hiphop,0.919,0.622,1,-7.384,0.0997,0.228,4.24E-06,0.122,0.424,140.022,4,C#,major,C# major
+121,Flipp Dinero,How I Move (feat. Lil Baby),How I Move (feat. Lil Baby),single,71,hiphop,0.826,0.635,5,-5.181,0.212,0.102,0,0.245,0.808,119.954,4,F,minor,F minor
+122,NAV,Tap (feat. Meek Mill),Bad Habits (Deluxe),album,71,hiphop,0.901,0.676,2,-7.033,0.251,0.0646,0,0.0863,0.452,85.018,4,D,major,D major
+123,Nipsey Hussle,Racks in the Middle (feat. Roddy Ricch and Hit-Boy),Racks in the Middle (feat. Roddy Ricch and Hit-Boy),single,70,hiphop,0.671,0.833,5,-5.152,0.395,0.0825,0,0.0726,0.702,79.351,4,F,minor,F minor
+124,Rick Ross,Gold Roses (feat. Drake),Port of Miami 2,album,70,hiphop,0.502,0.633,1,-5.8,0.419,0.00991,0,0.389,0.552,83.226,4,C#,major,C# major
+125,Dreamville,"Down Bad (feat. JID, Bas, J. Cole, EARTHGANG & Young Nudy)",Revenge Of The Dreamers III,album,69,hiphop,0.761,0.586,0,-5.368,0.359,0.0392,0,0.0558,0.719,149.804,4,C,major,C major
+126,DJ Khaled,Wish Wish (feat. Cardi B & 21 Savage),Father Of Asahd,album,68,hiphop,0.861,0.666,8,-5.18,0.343,0.00218,0,0.272,0.853,145.041,4,G#,minor,G# minor
+127,Mulatto,B*tch From Da Souf,B*tch From Da Souf,single,68,hiphop,0.863,0.235,1,-15.545,0.699,0.0241,0,0.123,0.399,150.062,4,C#,major,C# major
+128,NLE Choppa,Shotta Flow,Shotta Flow,single,67,hiphop,0.888,0.43,9,-6.728,0.588,0.0786,1.58E-06,0.132,0.45,120.088,4,A,major,A major
+129,GoldLink,"U Say (feat. Tyler, The Creator & Jay Prince)",Diaspora,album,67,hiphop,0.926,0.68,2,-7.689,0.196,0.0471,0.000125,0.119,0.458,114.981,4,D,major,D major
+130,Cordae,Broke As Fuck,The Lost Boy,album,67,hiphop,0.616,0.669,1,-5.791,0.32,0.0298,0,0.127,0.275,154.056,4,C#,major,C# major
+131,Tory Lanez,Freaky,LoVE me NOw (ReLoAdeD),album,66,hiphop,0.966,0.563,8,-5.764,0.0618,0.00202,0,0.105,0.363,104.991,4,G#,major,G# major
+132,Lil Tjay,F.N,F.N,single,66,hiphop,0.562,0.502,6,-10.269,0.255,0.323,0,0.0757,0.322,120.104,1,F#,minor,F# minor
+133,Doja Cat,Juicy,Juicy,single,64,hiphop,0.786,0.658,0,-2.61,0.0661,0.0856,0,0.0689,0.458,170.037,4,C,major,C major
+134,Gunna,Speed It Up,Drip or Drown 2,album,57,hiphop,0.912,0.587,7,-7.395,0.0582,0.0394,0.01,0.111,0.435,143.027,4,G,major,G major
+135,Future,100 Shooters (feat. Meek Mill),100 Shooters (feat. Meek Mill),single,57,hiphop,0.645,0.675,1,-5.282,0.202,0.0104,0,0.273,0.171,120.672,5,C#,minor,C# minor
+136,Young M.A,BIG,BIG,single,56,hiphop,0.86,0.507,0,-5.776,0.369,0.0412,6.55E-06,0.13,0.15,85.005,4,C,minor,C minor
+137,Freddie Gibbs,Palmolive (feat. Pusha T & Killer Mike),Bandana,album,55,hiphop,0.33,0.603,0,-7.571,0.36,0.601,0.00063,0.307,0.812,168.456,3,C,major,C major
+138,Benny The Butcher,18 Wheeler (feat. Pusha T),The Plugs I Met,album,53,hiphop,0.512,0.733,2,-7.8,0.244,0.00203,0.000253,0.349,0.739,75.356,4,D,minor,D minor
+139,Saba,Beautiful Smile,Beautiful Smile,single,51,hiphop,0.889,0.596,9,-8.23,0.397,0.278,0,0.0798,0.899,97.994,5,A,minor,A minor
+140,Blueface,Thotiana,Famous Cryp,album,46,hiphop,0.906,0.382,10,-12.89,0.269,0.18,0,0.113,0.391,104.025,4,A#,minor,A# minor
+141,Frank Ocean,In My Room,In My Room,single,79,indie,0.861,0.647,7,-7.425,0.0675,0.594,0.661,0.114,0.67,158.037,4,G,major,G major
+142,Clairo,Bags,Immunity,album,73,indie,0.742,0.546,1,-7.694,0.0315,0.172,0.38,0.115,0.868,104.996,4,C#,major,C# major
+143,Lana Del Rey,Norman fucking Rockwell,Norman Fucking Rockwell!,album,70,indie,0.218,0.215,5,-12.49,0.0368,0.967,0.0847,0.0948,0.138,76.74,1,F,major,F major
+144,Bon Iver,"Hey, Ma","i,i",album,70,indie,0.411,0.285,0,-10.97,0.0306,0.872,0.000354,0.0993,0.213,72.139,4,C,major,C major
+145,Solange,Stay Flo,When I Get Home,album,67,indie,0.823,0.558,9,-7.119,0.0278,0.397,2.03E-05,0.0821,0.674,155.974,4,A,major,A major
+146,Los Retros,Someone To Spend Time With,Someone To Spend Time With,single,66,indie,0.817,0.471,9,-13.301,0.0335,0.0529,0.224,0.106,0.962,89.551,4,A,major,A major
+147,Faye Webster,Kingston,Atlanta Millionaires Club,album,65,indie,0.73,0.344,10,-9.541,0.0394,0.138,0.00128,0.134,0.543,142.129,4,A#,minor,A# minor
+148,Sharon Van Etten,Seventeen,Remind Me Tomorrow,album,65,indie,0.538,0.77,5,-7.376,0.0487,0.0158,0.214,0.0686,0.238,127.103,4,F,major,F major
+149,Vampire Weekend,Harmony Hall,Father of the Bride,album,65,indie,0.653,0.76,11,-6.086,0.0479,0.475,0.000129,0.0917,0.6,98.008,4,B,major,B major
+150,ROSALÍA,A Palé,A Palé,single,65,indie,0.63,0.409,0,-8.83,0.0903,0.119,0.629,0.121,0.332,122.848,4,C,minor,C minor
+151,Tierra Whack,Only Child,Only Child,single,64,indie,0.826,0.365,1,-7.024,0.0412,0.849,3.80E-06,0.186,0.802,85.244,4,C#,major,C# major
+152,Monsune,OUTTA MY MIND,OUTTA MY MIND,single,64,indie,0.689,0.463,2,-8.121,0.0365,0.066,0.000152,0.145,0.864,86.998,4,D,minor,D minor
+153,Crumb,Ghostride,Jinx,album,63,indie,0.665,0.35,2,-9.426,0.028,0.508,0.83,0.109,0.467,87.061,4,D,major,D major
+154,James Blake,Barefoot In The Park (feat. ROSALÍA),Assume Form,album,62,indie,0.558,0.632,9,-8.339,0.284,0.832,0.105,0.198,0.519,161.764,4,A,minor,A minor
+155,Vampire Weekend,Sunflower (feat. Steve Lacy),Father of the Bride,album,60,indie,0.863,0.576,8,-5.691,0.0567,0.406,0.00824,0.141,0.932,100.03,4,G#,major,G# major
+156,Caroline Polachek,Door,Pang,album,60,indie,0.684,0.438,3,-8.309,0.0388,0.222,0,0.262,0.253,123.997,4,D#,major,D# major
+157,beabadoobee,She Plays Bass,She Plays Bass,single,59,indie,0.447,0.89,9,-3.823,0.047,0.000147,0.021,0.101,0.269,136.066,4,A,minor,A minor
+158,KAYTRANADA,DYSFUNCTIONAL,DYSFUNCTIONAL,single,59,indie,0.808,0.805,1,-3.392,0.103,0.00113,0.0585,0.193,0.886,107.965,4,C#,major,C# major
+159,Noname,Song 32,Song 32,single,58,indie,0.869,0.479,1,-9.695,0.128,0.0374,0.0168,0.0641,0.388,91.757,4,C#,major,C# major
+160,Big Thief,Not,Two Hands,album,57,indie,0.422,0.788,11,-6.57,0.0556,0.101,0.00282,0.16,0.544,140.423,4,B,major,B major
+161,Jai Paul,Do You Love Her Now,Do You Love Her Now / He,single,56,indie,0.71,0.336,2,-11.001,0.0462,0.542,0.0204,0.114,0.34,80.002,4,D,major,D major
+162,JPEGMAFIA,Free The Frail,All My Heroes Are Cornballs,album,56,indie,0.553,0.509,1,-7.955,0.353,0.515,0,0.154,0.264,153.674,4,C#,major,C# major
+163,Angel Olsen,New Love Cassette,All Mirrors,album,56,indie,0.619,0.464,9,-9.82,0.028,0.15,0.88,0.0791,0.58,79.033,3,A,major,A major
+164,Big Thief,UFOF,U.F.O.F.,album,55,indie,0.623,0.613,10,-9.241,0.0309,0.638,0.572,0.143,0.745,147.168,4,A#,minor,A# minor
+165,Toro y Moi,Ordinary Pleasure,Outer Peace,album,55,indie,0.878,0.779,7,-7.283,0.135,0.118,0.0192,0.104,0.778,115.009,4,G,major,G major
+166,Alex G,Gretel,House of Sugar,album,54,indie,0.449,0.875,8,-6.172,0.041,0.118,0.469,0.29,0.43,140.078,4,G#,major,G# major
+167,FKA twigs,cellophane,cellophane,single,51,indie,0.463,0.282,2,-12.075,0.0424,0.884,0.000158,0.0983,0.244,106.952,4,D,major,D major
+168,Dehd,Lucky,Water,album,51,indie,0.637,0.722,7,-4.016,0.0292,0.114,0.0644,0.0742,0.302,130.632,4,G,major,G major
+169,Danny Brown,Best Life,uknowhatimsayin¿,album,50,indie,0.702,0.764,1,-6.189,0.347,0.12,0.000307,0.146,0.471,85.991,4,C#,major,C# major
+170,Arlo Parks,george,George,single,46,indie,0.677,0.394,2,-7.278,0.0304,0.672,0.000124,0.129,0.539,96.985,4,D,minor,D minor
+171,Hand Habits,placeholder,placeholder,album,45,indie,0.493,0.414,6,-9.372,0.0258,0.0319,0.00134,0.0878,0.426,133.65,4,F#,minor,F# minor
+172,Stella Donnelly,Old Man,Beware of the Dogs,album,44,indie,0.691,0.759,1,-5.125,0.023,0.068,0,0.0894,0.703,98.005,4,C#,minor,C# minor
+173,Nilüfer Yanya,Baby Blu,Miss Universe,album,44,indie,0.778,0.774,9,-7.402,0.0457,0.052,0.00118,0.109,0.582,124.942,4,A,minor,A minor
+174,Perfume Genius,Pop Song,Pop Song,single,43,indie,0.644,0.443,9,-11.054,0.0834,0.12,0.119,0.0796,0.377,90.04,4,A,major,A major
+175,Sudan Archives,Limitless,Athena,album,43,indie,0.642,0.475,8,-8.473,0.0363,0.0158,0.0137,0.369,0.363,87.89,4,G#,major,G# major
+176,Brittany Howard,Georgia,Jaime,album,43,indie,0.369,0.549,10,-7.436,0.0892,0.512,0.099,0.116,0.246,91.579,3,A#,major,A# major
+177,Vagabon,Water Me Down,Water Me Down,single,37,indie,0.792,0.723,1,-9.673,0.0469,0.361,0.0919,0.103,0.19,115.425,4,C#,minor,C# minor
+178,Aldous Harding,The Barrel,Designer,album,36,indie,0.732,0.408,11,-8.475,0.036,0.747,0.000229,0.069,0.663,87.016,4,B,major,B major
+179,Lala Lala,Destroyer,The Lamb,album,36,indie,0.606,0.601,10,-6.71,0.0259,0.744,0.674,0.145,0.339,109.975,4,A#,major,A# major
+180,Jack Larsen,Spirit,Spirit,single,27,indie,0.552,0.717,1,-7.888,0.0571,0.0161,0.188,0.0693,0.038,110.015,4,C#,major,C# major
+181,Tame Impala,Borderline,Borderline,single,6,indie,0.598,0.71,0,-6.839,0.0272,0.0476,1.77E-05,0.1,0.726,97.976,4,C,minor,C minor
+182,Purple Mountains,All My Happiness is Gone,Purple Mountains,album,4,indie,0.505,0.746,7,-7.793,0.0271,0.00165,0.0455,0.266,0.723,138.131,4,G,major,G major
+183,Caribou,Home,Home,single,1,indie,0.711,0.663,9,-7.995,0.0997,0.0251,0.00727,0.246,0.507,96.996,4,A,minor,A minor
+184,Bill Callahan,747,Shepherd in a Sheepskin Vest,album,1,indie,0.715,0.444,2,-12.998,0.0328,0.93,0.359,0.0964,0.541,123.033,4,D,major,D major
+185,HAIM,Summer Girl - Bonus Track,Summer Girl (Bonus Track),single,0,indie,0.512,0.544,1,-7.953,0.226,0.356,0.0159,0.169,0.616,99.927,4,C#,minor,C# minor
+186,Chiiild,Back to Life,Back to Life,single,0,indie,0.642,0.575,8,-7.045,0.0246,0.0374,0.637,0.196,0.405,98.06,4,G#,major,G# major
+187,Kanye West,Follow God,JESUS IS KING,album,75,cng,0.529,0.9,1,-3.503,0.418,0.000248,1.21E-05,0.0426,0.434,180.291,4,C#,major,C# major
+188,Leeland,Way Maker - Live,Better Word (Live),album,70,cng,0.432,0.524,4,-8.721,0.0321,0.0289,0,0.682,0.183,135.956,4,E,major,E major
+189,Elevation Worship,See A Victory,See A Victory,single,67,cng,0.345,0.747,10,-6.92,0.053,0.00214,0,0.0928,0.215,154.739,4,A#,major,A# major
+190,We The Kingdom,Holy Water,Holy Water,single,64,cng,0.469,0.566,7,-6.966,0.0357,0.34,0,0.203,0.292,73.047,4,G,major,G major
+191,Hillsong Worship,King Of Kings,Awake,album,61,cng,0.489,0.477,2,-7.343,0.0299,0.122,0,0.1,0.177,136.045,4,D,major,D major
+192,Bethel Music,Raise a Hallelujah (Studio Version),Raise a Hallelujah (Studio Version),single,61,cng,0.42,0.823,1,-4.889,0.0434,0.00985,0,0.103,0.517,163.997,4,C#,major,C# major
+193,Riley Clemmons,Fighting For Me,Fighting For Me,single,61,cng,0.645,0.727,1,-4.179,0.0492,0.156,0,0.282,0.152,110.723,4,C#,minor,C# minor
+194,Zach Williams,Rescue Story,Rescue Story,album,61,cng,0.559,0.71,0,-6.14,0.0433,0.335,0,0.138,0.366,146.051,4,C,major,C major
+195,MercyMe,Almost Home,Almost Home,single,60,cng,0.55,0.74,0,-5.263,0.0333,0.135,0.000207,0.103,0.256,129.928,4,C,major,C major
+196,Hillsong UNITED,Whole Heart (Hold Me Now) - Live,People (Live),album,59,cng,0.329,0.588,4,-8.621,0.0322,0.0142,0,0.107,0.112,161.961,3,E,major,E major
+197,Danny Gokey,Haven't Seen It Yet,Haven't Seen It Yet,album,59,cng,0.619,0.686,2,-6.534,0.0506,0.167,0,0.114,0.609,139.916,4,D,major,D major
+198,Jeremy Camp,Dead Man Walking,The Story's Not Over,album,59,cng,0.518,0.799,1,-4.675,0.0455,0.0337,0,0.12,0.358,179.784,3,C#,minor,C# minor
+199,Cody Carnes,Nothing Else,Nothing Else,single,58,cng,0.381,0.161,0,-12.915,0.0369,0.84,0,0.143,0.356,135.813,4,C,major,C major
+200,Pat Barrett,Canvas And Clay - Live,Canvas And Clay (Live),single,58,cng,0.555,0.513,11,-6.938,0.0296,0.663,0,0.0936,0.348,140.025,4,B,major,B major
+201,Building 429,Fear No More,Fear No More,single,56,cng,0.502,0.786,10,-6.467,0.0464,0.0116,0,0.135,0.361,94.971,4,A#,major,A# major
+202,Kirk Franklin,Love Theory,LONG LIVE LOVE,album,55,cng,0.739,0.668,1,-5.464,0.246,0.185,0,0.0869,0.742,97.097,4,C#,major,C# major
+203,Rhett Walker,Believer,Believer,single,55,cng,0.527,0.669,3,-5.073,0.0274,0.0215,0,0.157,0.273,86.999,4,D#,major,D# major
+204,The Belonging Co,Hosanna - Live,Awe + Wonder (Live),album,55,cng,0.325,0.447,11,-7.967,0.0297,0.305,6.17E-06,0.188,0.179,135.95,4,B,major,B major
+205,for KING & COUNTRY,God Only Knows (Timbaland Remix),God Only Knows (Timbaland Remix),single,54,cng,0.7,0.487,11,-5.437,0.0486,0.208,0,0.11,0.363,143.964,4,B,minor,B minor
+206,Unspoken,Reason,Reason,album,54,cng,0.695,0.795,4,-4.483,0.144,0.0191,0,0.057,0.968,155.989,4,E,major,E major
+207,Skillet,Anchor,Victorious,album,54,cng,0.22,0.754,8,-5.095,0.0594,0.0063,0,0.0865,0.358,160.126,3,G#,major,G# major
+208,Amanda Lindsey Cook,House on a Hill,House on a Hill,album,54,cng,0.48,0.0729,10,-14.602,0.0559,0.957,0,0.0965,0.235,111.987,4,A#,major,A# major
+209,Passion,Follow You Anywhere - Live,Follow You Anywhere (Live),album,54,cng,0.144,0.644,0,-6.666,0.0431,0.0166,0,0.0934,0.138,185.57,3,C,major,C major
+210,Kim Walker-Smith,Just Be,Just Be,single,53,cng,0.391,0.246,3,-9.214,0.0271,0.85,0,0.0893,0.118,71.616,4,D#,major,D# major
+211,Matthew West,The God Who Stays,The God Who Stays,single,53,cng,0.488,0.726,0,-5.228,0.0516,0.11,0,0.0769,0.225,141.686,4,C,major,C major
+212,Tasha Cobbs Leonard,This Is A Move - Live,This Is A Move (Live),single,52,cng,0.245,0.723,8,-4.953,0.0626,0.41,3.97E-06,0.253,0.358,93.858,4,G#,major,G# major
+213,Switchfoot,NATIVE TONGUE,NATIVE TONGUE,album,52,cng,0.586,0.895,6,-5.223,0.117,0.00434,0,0.37,0.312,127.998,4,F#,minor,F# minor
+214,Terrian,In the Arms,In the Arms,single,51,cng,0.537,0.51,5,-5.648,0.0328,0.217,0,0.0925,0.26,132.97,4,F,major,F major
+215,Rend Collective,YOUR NAME IS POWER,YOUR NAME IS POWER,single,51,cng,0.513,0.835,8,-4.661,0.0571,0.00244,1.49E-06,0.339,0.53,86.046,4,G#,major,G# major
+216,Matt Redman,The Same Jesus,The Same Jesus,single,51,cng,0.293,0.658,6,-9.224,0.0447,0.0122,0,0.089,0.338,157.315,3,F#,minor,F# minor
+217,Koryn Hawthorne,Enough,Overcomer (Music from and Inspired by the Original Motion Picture),compilation,50,cng,0.694,0.797,6,-5.227,0.0552,0.102,0,0.315,0.589,143.994,4,F#,minor,F# minor
+218,Dan Bremnes,Up Again,Wherever I Go,album,50,cng,0.709,0.703,0,-4.946,0.0301,0.371,0.000152,0.182,0.847,97.002,4,C,major,C major
+219,Josh Garrels,Closer Than a Brother,Chrysaline,album,50,cng,0.576,0.857,7,-7.876,0.0463,0.16,0.615,0.123,0.473,84.993,4,G,major,G major
+220,Elevation Worship,Echo (Studio Version) (feat. Tauren Wells),Echo (Studio Version) (feat. Tauren Wells),single,49,cng,0.656,0.849,2,-4.408,0.0594,0.16,0,0.0723,0.586,103.954,4,D,major,D major
+221,Aaron Cole,FASHO,NOT BY CHANCE,album,48,cng,0.87,0.473,10,-7.323,0.0869,0.00465,0,0.136,0.468,86.014,4,A#,minor,A# minor
+222,Josh Baldwin,Let the Redeemed,Let the Redeemed,single,48,cng,0.461,0.848,9,-4.947,0.035,0.11,1.37E-05,0.22,0.726,159.974,4,A,major,A major
+223,Tenth Avenue North,Greater Than All My Regrets,Greater Than All My Regrets,single,47,cng,0.334,0.497,7,-7.129,0.0363,0.128,0,0.0803,0.164,143.742,4,G,major,G major
+224,GAWVI,Hope You Say,Hope You Say,single,47,cng,0.598,0.518,11,-5.947,0.0516,0.0336,0,0.0986,0.498,73.493,4,B,minor,B minor
+225,Jekalyn Carr,I See Miracles,I See Miracles,single,47,cng,0.264,0.795,10,-4.413,0.0705,0.0901,0.000217,0.243,0.357,153.044,4,A#,minor,A# minor
+226,Jason Gray,I'm Gonna Let It Go,I'm Gonna Let It Go,single,47,cng,0.68,0.775,4,-6.745,0.0828,0.334,0,0.248,0.633,86.002,4,E,minor,E minor
+227,Donald Lawrence,Deliver Me (This Is My Exodus) (feat. Le'Andria Johnson),Goshen,album,47,cng,0.371,0.691,1,-4.947,0.146,0.0325,3.94E-06,0.449,0.167,103.247,3,C#,major,C# major
+228,Big Daddy Weave,Alive,When The Light Comes,album,46,cng,0.515,0.782,0,-5.958,0.0416,9.19E-05,0,0.0893,0.398,146.091,4,C,major,C major
+229,Travis Greene,Won't Let Go,Won't Let Go,single,45,cng,0.46,0.51,0,-7.814,0.0571,0.487,0,0.318,0.235,185.765,3,C,major,C major
+230,We Are Messengers,Maybe It's Ok,Honest,single,44,cng,0.509,0.712,1,-6.097,0.0331,0.119,0,0.0831,0.489,138.005,4,C#,major,C# major
+231,Gene Moore,Won't Be Moved,Tunnel Vision,album,43,cng,0.763,0.603,9,-8.588,0.11,0.0652,2.30E-05,0.0832,0.593,92.992,4,A,major,A major
+232,Anthony Brown & group therAPy,Blessings on Blessings,Blessings on Blessings,single,34,cng,0.639,0.9,5,-3.468,0.141,0.056,0,0.172,0.704,96.984,4,F,minor,F minor
+233,David Leonard,Threads,The Wait,album,34,cng,0.526,0.735,0,-5.621,0.0309,0.162,0,0.13,0.416,129.991,4,C,major,C major
+234,Switch,Symphony,Symphony,single,1,cng,0.688,0.691,8,-6.3,0.0439,0.217,0,0.104,0.618,120.083,4,G#,major,G# major
+235,Sanctus Real,Confidence,Unstoppable God,album,0,cng,0.459,0.774,9,-5.711,0.0414,0.034,0,0.108,0.444,167.142,4,A,major,A major
+236,Red Rocks Worship,Breakthrough - Live,spark. (Breakthrough) [Live],single,0,cng,0.467,0.61,5,-7.729,0.0298,0.00851,0,0.963,0.102,95.018,4,F,major,F major
+237,Gregory Alan Isakov,San Luis,Evening Machines,album,69,fna,0.567,0.434,7,-12.755,0.0349,0.86,0.257,0.115,0.254,82.459,4,G,minor,G minor
+238,Caamp,By and By,By and By,album,67,fna,0.584,0.474,9,-7.981,0.0258,0.796,2.69E-06,0.115,0.332,101.457,4,A,major,A major
+239,Joy Williams,The Trouble with Wanting,Front Porch,album,66,fna,0.396,0.198,2,-9.096,0.031,0.912,0,0.0972,0.19,138.624,3,D,major,D major
+240,Rosie Carney,Thousand (feat. Lisa Hannigan),Bare,album,65,fna,0.676,0.198,1,-13.91,0.0333,0.943,0.0132,0.104,0.125,118.004,4,C#,major,C# major
+241,Tyler Childers,House Fire,Country Squire,album,64,fna,0.519,0.707,5,-8.424,0.0272,0.241,0.102,0.267,0.545,93.348,4,F,major,F major
+242,Humbird,Pharmakon,Pharmakon,album,63,fna,0.687,0.234,9,-12.559,0.029,0.848,7.72E-06,0.116,0.339,95.023,4,A,major,A major
+243,Andrew Bird,Sisyphus,My Finest Work Yet,album,61,fna,0.631,0.792,0,-4.364,0.0427,0.23,0.000317,0.0756,0.462,82.901,4,C,minor,C minor
+244,The Highwomen,Highwomen,The Highwomen,album,58,fna,0.554,0.47,8,-6.604,0.0548,0.77,2.60E-06,0.106,0.346,95.598,4,G#,minor,G# minor
+245,Mandolin Orange,The Wolves,Tides of a Teardrop,album,58,fna,0.583,0.339,2,-14.209,0.0368,0.858,0.042,0.129,0.341,78.129,4,D,major,D major
+246,Ian Noe,Letter to Madeline,Between the Country,album,56,fna,0.615,0.472,5,-8.638,0.0312,0.125,0,0.115,0.46,107.217,4,F,minor,F minor
+247,Jade Bird,Does Anybody Know,Jade Bird,album,55,fna,0.778,0.145,10,-11.95,0.0503,0.892,4.40E-06,0.126,0.24,109.071,4,A#,minor,A# minor
+248,Flyte,White Roses,White Roses,single,54,fna,0.53,0.633,10,-7.078,0.0283,0.391,0.0152,0.142,0.605,140.186,4,A#,major,A# major
+249,The Milk Carton Kids,I'll Be Gone,The Only Ones,album,52,fna,0.593,0.447,7,-10.497,0.0325,0.862,8.78E-05,0.116,0.195,114.235,4,G,minor,G minor
+250,Big Thief,Cattails,U.F.O.F.,album,52,fna,0.556,0.58,1,-6.925,0.0249,0.822,0.00594,0.111,0.702,80.514,4,C#,major,C# major
+251,Orville Peck,Dead of Night,Pony,album,52,fna,0.454,0.548,2,-11.618,0.0547,0.82,0.356,0.0606,0.5,99.892,4,D,major,D major
+252,Henry Jamison,Gloria,Gloria Duplex,album,51,fna,0.41,0.279,10,-13.248,0.0315,0.75,0.244,0.112,0.245,115.302,3,A#,major,A# major
+253,Bonny Light Horseman,Deep In Love,Deep In Love,single,51,fna,0.618,0.558,5,-8.184,0.0251,0.604,0.395,0.124,0.336,111.709,4,F,major,F major
+254,I'm With Her,Call My Name - Acoustic,Call My Name (Acoustic),single,50,fna,0.57,0.186,8,-10.603,0.0318,0.93,0,0.115,0.319,76.45,4,G#,major,G# major
+255,Wilco,Love Is Everywhere (Beware),Ode to Joy,album,50,fna,0.313,0.52,7,-9.436,0.0298,0.12,0.452,0.0993,0.511,144.249,3,G,major,G major
+256,Molly Tuttle,Take The Journey,When You're Ready,album,49,fna,0.569,0.675,0,-8.012,0.0349,0.115,0.000965,0.236,0.384,121.705,4,C,minor,C minor
+257,Valerie June,Cosmic Dancer,Cosmic Dancer,single,46,fna,0.446,0.572,2,-7.786,0.037,0.382,0.51,0.0715,0.207,75.499,4,D,major,D major
+258,Ondara,Saying Goodbye,Tales Of America,album,46,fna,0.631,0.523,9,-7.968,0.0303,0.454,5.86E-06,0.117,0.541,103.294,4,A,major,A major
+259,Alana Henderson,On Board,On Board,single,45,fna,0.501,0.342,1,-8.726,0.0273,0.838,3.69E-06,0.12,0.165,110.855,4,C#,major,C# major
+260,Hiss Golden Messenger,Terms of Surrender,Terms of Surrender,album,44,fna,0.527,0.224,4,-13.415,0.0309,0.957,0.0201,0.0932,0.227,113.844,3,E,major,E major
+261,Patty Griffin,Where I Come From,Patty Griffin,album,42,fna,0.496,0.423,7,-12.655,0.0321,0.787,0.0225,0.112,0.108,99.057,4,G,minor,G minor
+262,Justin Townes Earle,Frightened By The Sound,The Saint Of Lost Causes,album,41,fna,0.658,0.467,11,-11.677,0.0457,0.528,0.0361,0.116,0.632,118.969,4,B,minor,B minor
+263,Rhiannon Giddens,Wayfaring Stranger (with Francesco Turrisi),there is no Other (with Francesco Turrisi) [Deluxe Version],album,39,fna,0.379,0.183,0,-9.926,0.0332,0.981,0.000622,0.112,0.197,147.546,4,C,minor,C minor
+264,Caroline Spence,Mint Condition,Mint Condition,album,38,fna,0.436,0.209,0,-11.428,0.0328,0.686,0,0.105,0.198,111.124,3,C,major,C major
+265,Calexico,Follow the Water,Years to Burn,album,38,fna,0.654,0.436,6,-11.284,0.0288,0.648,0.00229,0.0939,0.738,113.818,4,F#,major,F# major
+266,Mavis Staples,We Get By,We Get By,album,37,fna,0.509,0.386,7,-8.609,0.0881,0.624,1.55E-06,0.133,0.674,134.543,4,G,major,G major
+267,Our Native Daughters,Black Myself,Songs of Our Native Daughters,album,34,fna,0.772,0.533,11,-6.088,0.035,0.182,8.96E-06,0.0914,0.862,144.913,4,B,minor,B minor
+268,Black Belt Eagle Scout,At the Party,At the Party With My Brown Friends,album,32,fna,0.463,0.721,7,-6.698,0.0258,0.203,0.618,0.108,0.25,146.966,3,G,major,G major
+269,Dylan LeBlanc,Renegade,Renegade,album,32,fna,0.44,0.875,6,-4.27,0.0303,0.017,0.00309,0.123,0.71,118.103,4,F#,major,F# major
+270,Darlingside,Bright as the Day,Look Up & Fly Away,single,31,fna,0.298,0.211,2,-11.008,0.0338,0.805,0.0442,0.0904,0.296,118.043,4,D,major,D major
+271,Michaela Anne,Desert Dove,Desert Dove,album,31,fna,0.592,0.419,2,-9.441,0.0296,0.349,0.00102,0.0896,0.37,119.868,4,D,major,D major
+272,Katie Pruitt,Loving Her,Loving Her,single,29,fna,0.462,0.406,10,-8.268,0.0297,0.679,0.000206,0.0939,0.254,80.388,4,A#,major,A# major
+273,Joan Shelley,Coming Down For You,Like The River Loves The Sea,album,29,fna,0.528,0.338,5,-10.942,0.0302,0.969,0.0779,0.16,0.555,92.262,4,F,minor,F minor
+274,Emily Scott Robinson,The Dress,Traveling Mercies,album,26,fna,0.518,0.298,10,-9.928,0.0377,0.884,2.13E-05,0.135,0.326,112.565,4,A#,major,A# major
+275,JP Harris,Early Morning Rain,Why Don't We Duet in the Road (Again),single,26,fna,0.502,0.398,4,-11.812,0.0279,0.849,0.00728,0.0838,0.38,99.633,4,E,major,E major
+276,Mary Bragg,Fool,Violets as Camouflage,album,26,fna,0.543,0.342,0,-8.647,0.0292,0.502,4.07E-05,0.106,0.153,117.934,4,C,minor,C minor
+277,John Prine,Unwed Fathers (feat. Margo Price),Unwed Fathers (feat. Margo Price),single,25,fna,0.465,0.257,7,-11.443,0.0292,0.738,1.61E-06,0.166,0.546,134.222,4,G,major,G major
+278,Robert Ellis,Passive Aggressive,Texas Piano Man,album,22,fna,0.581,0.404,0,-6.418,0.0403,0.182,0.259,0.0947,0.521,136.771,4,C,major,C major
+279,Kelsey Waldon,"Kentucky, 1988",White Noise / White Lines,album,21,fna,0.316,0.672,3,-7.581,0.0463,0.0181,0.000377,0.1,0.422,89.26,4,D#,major,D# major
+280,Andrew Combs,Ideal Man,Ideal Man,album,20,fna,0.564,0.515,0,-8.18,0.0268,0.628,0.00164,0.151,0.378,107.614,4,C,major,C major
+281,Lillie Mae,A Golden Year,Other Girls,album,19,fna,0.376,0.518,0,-9.405,0.0336,0.0509,0.00091,0.113,0.175,139.939,4,C,major,C major
+282,Fruition,Wild as the Night,Wild as the Night,single,14,fna,0.436,0.33,11,-8.758,0.0273,0.571,0.000795,0.105,0.105,151.952,4,B,major,B major
+283,John Paul White,This Isn't Gonna End Well,The Hurting Kind,album,9,fna,0.402,0.397,10,-7.21,0.0312,0.131,8.82E-05,0.1,0.736,203.94,4,A#,major,A# major
+284,Yola,Faraway Look,Walk Through Fire,album,0,fna,0.387,0.565,6,-5.415,0.0253,0.396,0.00627,0.288,0.193,83.145,4,F#,major,F# major
+285,Che Apalache,The Dreamer,Rearrange My Heart,album,0,fna,0.295,0.426,3,-8.734,0.0343,0.824,0.000157,0.113,0.381,184.125,4,D#,major,D# major
+286,KAROL G,Tusa,Tusa,single,88,latin,0.803,0.715,2,-3.28,0.298,0.295,0.000134,0.0574,0.574,101.085,4,D,major,D major
+287,J Balvin,LA CANCIÓN,OASIS,album,84,latin,0.754,0.646,7,-5.795,0.317,0.152,1.85E-05,0.108,0.429,176.089,4,G,major,G major
+288,Piso 21,Pa' Olvidarme De Ella,Pa' Olvidarme De Ella,single,84,latin,0.728,0.542,0,-5.195,0.0514,0.259,0,0.136,0.637,90.016,3,C,major,C major
+289,Bad Bunny,Callaita,Callaita,single,83,latin,0.61,0.624,2,-4.773,0.309,0.6,2.12E-06,0.243,0.244,176.169,4,D,major,D major
+290,Daddy Yankee,Con Calma,Con Calma,single,81,latin,0.737,0.86,8,-2.652,0.0593,0.11,1.94E-06,0.0574,0.656,93.989,4,G#,minor,G# minor
+291,Anuel AA,China,China,single,81,latin,0.786,0.808,7,-3.702,0.0882,0.0846,0.000289,0.0822,0.609,105.027,4,G,major,G major
+292,Jhay Cortez,No Me Conoce - Remix,Famouz,album,80,latin,0.806,0.786,10,-3.831,0.0741,0.145,0,0.0935,0.58,91.973,4,A#,minor,A# minor
+293,Tainy,Adicto (with Anuel AA & Ozuna),Adicto (with Anuel AA & Ozuna),single,80,latin,0.734,0.836,10,-4.803,0.0735,0.017,1.64E-05,0.179,0.623,80.002,4,A#,minor,A# minor
+294,DJ Snake,Loco Contigo (feat. J. Balvin & Tyga),Carte Blanche,album,80,latin,0.694,0.758,11,-2.986,0.218,0.278,1.34E-06,0.102,0.371,192.091,4,B,major,B major
+295,Maluma,11:00 PM,11:11,album,80,latin,0.777,0.712,10,-4.84,0.277,0.217,0,0.091,0.68,95.692,4,A#,major,A# major
+296,Sech,Otro Trago - Remix,Otro Trago (Remix),single,78,latin,0.725,0.79,0,-2.331,0.197,0.0711,1.14E-06,0.0602,0.763,175.988,4,C,major,C major
+297,Camilo,Tutu,Tutu,single,78,latin,0.731,0.832,9,-2.592,0.0503,0.273,0,0.0665,0.94,146.013,4,A,major,A major
+298,Lunay,Soltera - Remix,Soltera (Remix),single,78,latin,0.795,0.783,5,-4.271,0.0432,0.361,0,0.437,0.799,92.01,4,F,major,F major
+299,Natti Natasha,La Mejor Versión de Mi - Remix,La Mejor Versión de Mi (Remix),single,78,latin,0.735,0.712,11,-5.119,0.0326,0.732,0,0.302,0.894,131.938,4,B,minor,B minor
+300,ROSALÍA,"Yo x Ti, Tu x Mi","Yo x Ti, Tu x Mi",single,78,latin,0.78,0.759,1,-3.292,0.225,0.462,0.000868,0.143,0.579,91.952,4,C#,major,C# major
+301,Carin Leon,Me La Avente,El Malo,album,78,latin,0.723,0.48,11,-4.1,0.0326,0.557,0,0.0705,0.909,144.533,3,B,minor,B minor
+302,Maluma,HP,11:11,album,77,latin,0.837,0.791,4,-3.157,0.0773,0.252,1.14E-06,0.188,0.618,91.98,4,E,minor,E minor
+303,Mau y Ricky,La Boca,Para Aventuras y Curiosidades,album,77,latin,0.618,0.795,2,-1.8,0.113,0.0655,0,0.309,0.76,185.901,4,D,major,D major
+304,Mike Bahía,Detente,Navegando,album,77,latin,0.736,0.585,7,-4.617,0.346,0.273,0,0.106,0.363,171.932,4,G,major,G major
+305,Anuel AA,Secreto,Secreto,single,75,latin,0.807,0.803,11,-4.156,0.126,0.602,0.00853,0.136,0.706,91.987,4,B,major,B major
+306,Sech,Que Mas Pues - Remix,Sueños,album,75,latin,0.647,0.661,11,-5.027,0.2,0.121,2.27E-06,0.12,0.811,113.358,5,B,major,B major
+307,Paulo Londra,Tal Vez,Homerun,album,75,latin,0.855,0.649,8,-2.443,0.151,0.25,0,0.0801,0.741,161.986,4,G#,major,G# major
+308,Sebastian Yatra,Un Año,Un Año,single,74,latin,0.771,0.382,1,-6.808,0.0514,0.148,0,0.104,0.535,94.931,4,C#,minor,C# minor
+309,Dalex,Cuaderno,Climaxxx,album,74,latin,0.681,0.648,1,-5.021,0.38,0.523,0,0.104,0.688,172.02,4,C#,minor,C# minor
+310,Ozuna,Baila Baila Baila,Nibiru,album,73,latin,0.837,0.626,11,-5.674,0.152,0.0588,0,0.252,0.592,99.987,4,B,minor,B minor
+311,Sofia Reyes,R.I.P. (feat. Rita Ora & Anitta),R.I.P. (feat. Rita Ora & Anitta),single,72,latin,0.764,0.752,8,-3.713,0.0711,0.18,0,0.0701,0.698,100.066,4,G#,minor,G# minor
+312,Adriel Favela,Miami Vibe,Miami Vibe,single,72,latin,0.795,0.731,4,-6.949,0.041,0.337,0,0.0935,0.88,103.509,3,E,minor,E minor
+313,Aventura,Inmortal,Utopia,album,71,latin,0.77,0.775,8,-4.65,0.0349,0.178,0,0.0651,0.848,124.013,4,G#,minor,G# minor
+314,TINI,Fresa,Fresa,single,71,latin,0.781,0.866,5,-3.493,0.0867,0.216,0,0.101,0.864,95.993,4,F,minor,F minor
+315,Manuel Turizo,Te Quemaste,ADN,album,71,latin,0.729,0.773,0,-2.486,0.131,0.611,0.00106,0.287,0.718,176.053,4,C,major,C major
+316,Christian Nodal,De Los Besos Que Te Di,De Los Besos Que Te Di,single,71,latin,0.683,0.501,11,-3.823,0.031,0.305,0,0.0439,0.703,97.971,4,B,minor,B minor
+317,Alejandro Sanz,Mi Persona Favorita,#ELDISCO,album,70,latin,0.582,0.659,8,-7.511,0.114,0.543,0,0.0656,0.583,155.957,4,G#,major,G# major
+318,Natanael Cano,Soy El Diablo - Remix,Soy El Diablo (Remix),single,70,latin,0.681,0.686,9,-6.398,0.0462,0.588,0,0.114,0.961,109.191,3,A,minor,A minor
+319,Paloma Mami,Fingías,Fingías,single,69,latin,0.729,0.805,6,-3.83,0.184,0.19,0.225,0.0909,0.345,191.994,4,F#,major,F# major
+320,Farruko,Delincuente,Gangalee,album,68,latin,0.655,0.858,0,-5.607,0.315,0.53,0,0.344,0.65,83.489,4,C,minor,C minor
+321,Myke Towers,La Playa,La Playa,single,68,latin,0.796,0.683,10,-2.754,0.15,0.108,0,0.107,0.353,140.108,4,A#,minor,A# minor
+322,Rauw Alejandro,Que Le De,Que Le De,single,66,latin,0.77,0.75,0,-2.715,0.0785,0.19,0,0.0618,0.609,99.997,4,C,major,C major
+323,Mariah Angeliq,Perreito,Perreito,single,66,latin,0.728,0.611,0,-3.614,0.0922,0.183,0.154,0.124,0.526,180.014,4,C,major,C major
+324,Calibre 50,Simplemente Gracias,Simplemente Gracias,single,65,latin,0.749,0.59,3,-6.039,0.0309,0.692,1.44E-06,0.108,0.741,129.985,4,D#,major,D# major
+325,Cazzu,Visto a las 00:00,Error 93,album,63,latin,0.671,0.554,7,-7.28,0.479,0.643,2.08E-05,0.126,0.24,177.644,4,G,major,G major
+326,Lola Indigo,Lola Bunny,Lola Bunny,single,60,latin,0.769,0.899,9,-1.843,0.0503,0.193,0.00979,0.23,0.872,94.987,4,A,minor,A minor
+327,Ricky Martin,Cántalo,Cántalo,single,59,latin,0.708,0.795,1,-4.71,0.116,0.0339,0,0.362,0.731,95.039,4,C#,major,C# major
+328,Black Eyed Peas,RITMO (Bad Boys For Life) - Steve Aoki Remix,RITMO (Bad Boys For Life),single,58,latin,0.84,0.719,1,-3.333,0.0887,0.0728,0.0188,0.112,0.494,111.993,4,C#,major,C# major
+329,Jenni Rivera,Aparentemente Bien - Versión Banda,Aparentemente Bien,single,58,latin,0.76,0.498,2,-5.272,0.0337,0.208,0,0.138,0.717,137.998,4,D,major,D major
+330,Juanes,Querer Mejor,Querer Mejor,single,54,latin,0.781,0.705,2,-4.51,0.134,0.297,0,0.118,0.615,82.523,4,D,major,D major
+331,T3R Elemento,Mágicos Besitos,Mágicos Besitos,single,46,latin,0.621,0.488,7,-7.331,0.0356,0.629,0,0.197,0.756,76.429,4,G,major,G major
+332,Abraham Vazquez,Lo Tienes Todo,Lo Tienes Todo,single,44,latin,0.695,0.436,3,-8.041,0.0296,0.809,1.43E-06,0.126,0.431,110.886,4,D#,major,D# major
+333,Jesse & Joy,Tanto,Tanto,single,18,latin,0.76,0.772,11,-4.529,0.059,0.42,4.89E-06,0.111,0.604,143.942,4,B,major,B major
+334,Nicky Jam,Te Robaré,Te Robaré,single,10,latin,0.673,0.752,2,-3.572,0.0561,0.241,4.51E-05,0.0813,0.797,175.997,4,D,minor,D minor
+335,WizKid,Joro,Joro,single,72,afropop,0.686,0.694,7,-3.693,0.257,0.253,0.000904,0.109,0.587,189.998,4,G,minor,G minor
+336,Rema,Dumebi,Rema,single,67,afropop,0.923,0.657,3,-5.173,0.0605,0.199,0.00407,0.108,0.734,110.015,4,D#,minor,D# minor
+337,Rema,Corny,Rema,single,64,afropop,0.494,0.777,7,-3.009,0.13,0.335,0.0911,0.116,0.506,95.012,4,G,minor,G minor
+338,Kojo Funds,I Like (feat. WizKid),I Like (feat. WizKid),single,63,afropop,0.496,0.833,5,-3.398,0.287,0.268,0,0.0858,0.63,134.944,5,F,major,F major
+339,Rayvanny,Tetema,Tetema,single,61,afropop,0.855,0.841,6,-2.769,0.18,0.37,0.00127,0.0545,0.953,96.12,4,F#,minor,F# minor
+340,WizKid,Ghetto Love,Ghetto Love,single,60,afropop,0.807,0.774,4,-4.553,0.235,0.206,0.000338,0.127,0.767,98.048,4,E,minor,E minor
+341,Tekno,Skeletun,Skeletun,single,60,afropop,0.747,0.64,4,-4.766,0.0899,0.0355,8.07E-05,0.338,0.173,201.999,4,E,minor,E minor
+342,DaVido,Blow My Mind,A Good Time,album,58,afropop,0.52,0.644,7,-7.09,0.0783,0.129,0.000235,0.107,0.6,103.646,4,G,minor,G minor
+343,Odunsi (The Engine),Tipsy (feat. RAYE),Tipsy (feat. RAYE),single,58,afropop,0.746,0.671,8,-4.984,0.055,0.239,4.32E-06,0.327,0.677,90.014,4,G#,minor,G# minor
+344,Tekno,DON'T JEALOUS ME,The Lion King: The Gift,album,58,afropop,0.932,0.775,7,-5.345,0.115,0.0184,0.0157,0.318,0.584,119.976,4,G,minor,G minor
+345,DaVido,Risky,Risky,single,58,afropop,0.714,0.702,8,-4.544,0.264,0.15,0,0.0993,0.74,126.511,5,G#,major,G# major
+346,Burna Boy,JA ARA E,The Lion King: The Gift,album,58,afropop,0.79,0.693,0,-5.767,0.0605,0.042,0.0267,0.079,0.855,91.991,4,C,major,C major
+347,Maleek Berry,Flashy,Flashy,single,57,afropop,0.859,0.665,7,-3.189,0.0382,0.186,0.335,0.0999,0.719,102.995,4,G,minor,G minor
+348,Mr Eazi,Doyin,Doyin,single,56,afropop,0.683,0.688,9,-4.751,0.224,0.00659,5.50E-06,0.0947,0.41,105.999,4,A,minor,A minor
+349,Cruel Santino,Rapid Fire,Mandy & The Jungle,album,55,afropop,0.789,0.617,1,-6.007,0.0934,0.857,0.0248,0.111,0.5,90.082,4,C#,major,C# major
+350,Joeboy,Beginning,Beginning,single,55,afropop,0.878,0.668,6,-7.076,0.107,0.149,0.000116,0.1,0.962,109.955,4,F#,minor,F# minor
+351,NSG,Trust Issues,Trust Issues,single,55,afropop,0.469,0.848,7,-4.556,0.337,0.0679,1.35E-05,0.159,0.81,73.936,3,G,minor,G minor
+352,Zlatan,Killin Dem,Killin Dem,single,54,afropop,0.876,0.808,3,-5.382,0.176,0.107,0.00447,0.121,0.745,112.923,4,D#,minor,D# minor
+353,Tiwa Savage,KEYS TO THE KINGDOM,The Lion King: The Gift,album,54,afropop,0.731,0.674,2,-6.704,0.0801,0.0057,2.54E-05,0.109,0.73,90.022,4,D,major,D major
+354,Naira Marley,Soapy,Soapy,single,52,afropop,0.9,0.806,1,-4.816,0.246,0.159,0.00971,0.0811,0.671,123.038,4,C#,major,C# major
+355,Mr Eazi,Tony Montana,Tony Montana,single,52,afropop,0.597,0.708,3,-4.363,0.287,0.419,0,0.0962,0.726,103.09,4,D#,minor,D# minor
+356,Eugy,LoLo,LoLo,single,52,afropop,0.766,0.622,11,-7.48,0.359,0.317,0.00798,0.0849,0.426,187.936,4,B,major,B major
+357,Adekunle Gold,Before You Wake Up,Before You Wake Up,single,51,afropop,0.629,0.821,8,-3.4,0.17,0.499,0,0.411,0.715,63.59,5,G#,minor,G# minor
+358,Teni,Billionaire,Billionaire,single,49,afropop,0.807,0.715,8,-5.316,0.0998,0.301,0,0.0936,0.829,118.965,4,G#,major,G# major
+359,Sarz,TROBUL,I LOVE GIRLS WITH TROBUL,album,49,afropop,0.884,0.521,8,-6.876,0.268,0.314,3.95E-06,0.107,0.536,99.914,4,G#,minor,G# minor
+360,Simi,Jericho,Omo Charlie Champagne Vol. 1,album,49,afropop,0.57,0.861,5,-3.2,0.324,0.332,0,0.0988,0.89,184.029,4,F,minor,F minor
+361,Sun-El Musician,Into Ingawe,Into Ingawe,single,49,afropop,0.613,0.725,3,-9.856,0.0475,0.386,0.0205,0.113,0.441,108.017,4,D#,major,D# major
+362,Kizz Daniel,Madu,No Bad Songz,album,48,afropop,0.777,0.796,5,-4.398,0.0611,0.108,0.175,0.0536,0.966,108.98,4,F,minor,F minor
+363,Sho Madjozi,John Cena,John Cena,single,47,afropop,0.9,0.61,11,-9.051,0.114,0.0366,4.13E-05,0.0979,0.673,127.149,4,B,minor,B minor
+364,Tiwa Savage,49-99,49-99,single,46,afropop,0.833,0.722,4,-5.561,0.0676,0.042,0.167,0.14,0.29,102.989,4,E,minor,E minor
+365,Prince Kaybee,Fetch Your Life - Edit,Re Mmino,album,46,afropop,0.768,0.586,4,-12.171,0.0441,0.371,0.16,0.197,0.366,123.99,4,E,minor,E minor
+366,Fireboy DML,Jealous,Jealous,single,44,afropop,0.747,0.778,4,-6.993,0.0501,0.116,0.000112,0.631,0.311,103.019,4,E,minor,E minor
+367,Jidenna,Zodi (feat. Mr Eazi),Zodi (feat. Mr Eazi),single,39,afropop,0.799,0.69,11,-7.854,0.165,0.0205,2.55E-06,0.432,0.611,105.935,4,B,minor,B minor
+368,Stonebwoy,Ololo,Ololo,single,37,afropop,0.746,0.798,7,-3.519,0.034,0.644,5.65E-05,0.246,0.889,102.966,4,G,minor,G minor
+369,Juls,Cake,Colour,album,36,afropop,0.889,0.514,4,-6.38,0.17,0.134,0,0.0859,0.585,104.976,4,E,major,E major
+370,Niniola,Designer,Designer,single,36,afropop,0.804,0.763,2,-2.79,0.065,0.197,0.0118,0.108,0.388,120.016,4,D,minor,D minor
+371,Kida Kudz,Jiggy Bop,Jiggy Bop,single,35,afropop,0.666,0.428,1,-14.134,0.449,0.415,0.000402,0.113,0.453,140.053,5,C#,major,C# major
+372,DJ Neptune,Penetrate,Penetrate,single,35,afropop,0.661,0.527,7,-9.002,0.112,0.0337,0.00754,0.105,0.311,97.032,4,G,minor,G minor
+373,Olamide,Woske,Woske,single,33,afropop,0.581,0.9,9,-4.518,0.266,0.0432,0,0.0646,0.605,117.792,4,A,minor,A minor
+374,Bebe Cool,Wire Wire,Wire Wire,single,33,afropop,0.789,0.821,8,-3.376,0.127,0.262,0,0.256,0.806,98.065,4,G#,major,G# major
+375,Lady Donli,Corner,Enjoy Your Life,album,32,afropop,0.952,0.695,8,-7.466,0.117,0.129,0.000193,0.128,0.805,103.042,4,G#,minor,G# minor
+376,Vanessa Mdee,"That's For Me (feat. Distruction Boyz, DJ Tira & Prince Bulo)",That's For Me,single,30,afropop,0.847,0.946,2,-3.488,0.038,0.0119,0,0.0518,0.733,125.009,4,D,major,D major
+377,Shatta Wale,Ay3 Halfcast,Wonder Boy,album,21,afropop,0.797,0.743,8,-5.119,0.352,0.264,0,0.0948,0.782,110.283,4,G#,major,G# major
+378,Joeboy,Baby,Baby,single,6,afropop,0.785,0.806,11,-5.34,0.0558,0.142,0.000285,0.147,0.539,105.001,4,B,major,B major
+379,Seyi Shay,Gimme Love,Gimme Love,single,5,afropop,0.836,0.682,11,-4.86,0.0941,0.204,0.000404,0.107,0.312,100.016,4,B,minor,B minor
+380,Burna Boy,Anybody,Anybody,single,0,afropop,0.864,0.877,6,-2.418,0.0644,0.0126,1.46E-05,0.0831,0.686,103.985,4,F#,minor,F# minor
+381,Runtown,International Badman Killa,Tradition,single,0,afropop,0.745,0.778,1,-3.499,0.0401,0.687,7.01E-05,0.0729,0.807,103.979,4,C#,minor,C# minor
+382,Burna Boy,On the Low,On the Low,single,0,afropop,0.803,0.76,1,-4.495,0.0465,0.679,0.0049,0.0839,0.934,99.951,4,C#,minor,C# minor
+383,Mayorkun,Up to Something,Up to Something,single,0,afropop,0.803,0.7,10,-3.825,0.0407,0.072,0.0388,0.104,0.279,99.005,4,A#,minor,A# minor
+384,Machine Gun Kelly,I Think I'm OKAY (with YUNGBLUD & Travis Barker),Hotel Diablo,album,81,rock,0.628,0.744,7,-4.718,0.0379,0.0257,0,0.313,0.277,119.921,4,G,major,G major
+385,Post Malone,Take What You Want (feat. Ozzy Osbourne & Travis Scott),Hollywood's Bleeding,album,80,rock,0.499,0.8,1,-2.665,0.0502,0.0906,0,0.147,0.272,139.919,4,C#,minor,C# minor
+386,Slipknot,Unsainted,We Are Not Your Kind,album,74,rock,0.427,0.946,7,-2.188,0.0469,0.000118,0.0253,0.0604,0.237,101.305,4,G,major,G major
+387,I Prevail,Hurricane,TRAUMA,album,71,rock,0.389,0.885,6,-5.063,0.0551,0.000372,0.000311,0.202,0.187,164.989,4,F#,minor,F# minor
+388,Bring Me The Horizon,MANTRA,amo,album,66,rock,0.5,0.817,0,-3.501,0.0459,0.00054,0,0.152,0.599,90.01,4,C,major,C major
+389,Sam Fender,Hypersonic Missiles,Hypersonic Missiles,album,66,rock,0.551,0.814,4,-3.683,0.0425,0.00089,1.16E-06,0.18,0.469,130.971,4,E,major,E major
+390,The Black Keys,Lo/Hi,"""Let's Rock""",album,64,rock,0.606,0.679,2,-7.445,0.0321,0.0151,0.000433,0.0962,0.707,122.016,4,D,major,D major
+391,Badflower,Ghost,"OK, I'M SICK",album,64,rock,0.505,0.839,11,-4.966,0.0569,0.0111,0,0.211,0.326,139.961,4,B,minor,B minor
+392,TOOL,Fear Inoculum,Fear Inoculum,album,63,rock,0.313,0.584,7,-10.091,0.0415,0.000824,0.52,0.0529,0.159,87.894,4,G,major,G major
+393,Cage The Elephant,Ready To Let Go,Social Cues,album,63,rock,0.719,0.896,1,-3.263,0.037,0.011,3.25E-05,0.0731,0.746,100.962,4,C#,major,C# major
+394,Catfish and the Bottlemen,Longshot,The Balance,album,63,rock,0.481,0.765,7,-4.025,0.0388,0.00381,0.000737,0.119,0.465,102.829,4,G,major,G major
+395,Asking Alexandria,The Violence,The Violence,single,62,rock,0.646,0.851,8,-4.22,0.0662,0.00618,0,0.629,0.333,129.918,4,G#,minor,G# minor
+396,Ozzy Osbourne,Under the Graveyard,Under the Graveyard,single,61,rock,0.496,0.88,1,-2.242,0.0359,0.00151,2.92E-05,0.0592,0.148,140.009,4,C#,minor,C# minor
+397,grandson,Oh No!!!,Oh No!!!,single,61,rock,0.609,0.659,2,-7.218,0.0442,0.00592,0.000292,0.161,0.522,80.996,4,D,major,D major
+398,blink-182,Blame It On My Youth,NINE,album,58,rock,0.439,0.941,8,-3.034,0.211,0.0497,0,0.21,0.607,170.149,4,G#,major,G# major
+399,Sleeping With Sirens,Leave It All Behind,How It Feels to Be Lost,album,58,rock,0.555,0.925,2,-4.008,0.121,0.00402,0.000345,0.122,0.308,97.495,4,D,minor,D minor
+400,Sturgill Simpson,Sing Along,SOUND & FURY,album,57,rock,0.489,0.957,7,-2.812,0.056,0.0115,0.000405,0.173,0.53,124.026,4,G,major,G major
+401,Papa Roach,Elevate,Who Do You Trust?,album,56,rock,0.666,0.775,2,-5.458,0.0979,0.0226,0,0.254,0.59,144.998,4,D,minor,D minor
+402,FEVER 333,ONE OF US,STRENGTH IN NUMB333RS,album,56,rock,0.645,0.85,7,-4.184,0.193,0.00119,0,0.241,0.45,90.999,4,G,major,G major
+403,Zero 9:36,Leave The Light On,You Will Not Be Saved,album,56,rock,0.679,0.559,9,-7.248,0.0407,0.0131,0,0.25,0.522,130.042,4,A,minor,A minor
+404,Barns Courtney,"""99""",404,album,54,rock,0.549,0.807,8,-4.32,0.0312,0.00605,0,0.127,0.689,95.98,4,G#,major,G# major
+405,Angels & Airwaves,Rebel Girl,Rebel Girl,single,53,rock,0.582,0.946,0,-3.801,0.034,9.66E-05,0.00129,0.251,0.806,124.986,4,C,major,C major
+406,The 1975,People,People,single,53,rock,0.492,0.926,0,-5.257,0.188,3.74E-05,0.0187,0.475,0.479,149.957,4,C,major,C major
+407,Weezer,The End of the Game,The End of the Game,single,53,rock,0.574,0.865,8,-4.028,0.041,0.00121,2.92E-06,0.108,0.669,119.068,4,G#,major,G# major
+408,YONAKA,Rockstar,Don't Wait 'Til Tomorrow,album,52,rock,0.482,0.881,9,-3.707,0.0627,0.0135,1.89E-06,0.122,0.296,128.133,4,A,minor,A minor
+409,Mark Morton,Cross Off,Anesthetic,album,51,rock,0.532,0.935,2,-5.102,0.129,1.00E-04,0,0.0989,0.325,131.997,4,D,major,D major
+410,Liam Gallagher,Shockwave,Why Me? Why Not. (Deluxe Edition),album,51,rock,0.434,0.891,2,-3.238,0.0439,7.56E-06,0,0.257,0.39,123.958,4,D,minor,D minor
+411,Foals,White Onions,Part 1 Everything Not Saved Will Be Lost,album,50,rock,0.42,0.976,0,-2.236,0.108,3.17E-05,0.00321,0.0426,0.39,164.023,4,C,major,C major
+412,Frank Carter & The Rattlesnakes,Crowbar,End of Suffering,album,50,rock,0.487,0.639,10,-6.223,0.0517,0.0832,2.53E-05,0.246,0.799,119.929,4,A#,major,A# major
+413,BONES UK,Pretty Waste,Bones UK,album,49,rock,0.661,0.835,4,-3.791,0.113,9.85E-05,0.000443,0.247,0.541,93.989,4,E,major,E major
+414,K.Flay,Sister,Solutions,album,49,rock,0.715,0.548,11,-6.355,0.0535,0.00386,0.00574,0.0752,0.781,99.992,4,B,major,B major
+415,Tom Morello,Can't Stop The Bleeding (feat. Gary Clark Jr. & Gramatik),Can't Stop The Bleeding (feat. Gary Clark Jr. & Gramatik),single,47,rock,0.523,0.896,11,-3.221,0.138,0.00283,0.0315,0.183,0.639,188.137,4,B,minor,B minor
+416,Gary Clark Jr.,This Land - Single Version,This Land,single,46,rock,0.505,0.911,10,-3.006,0.0624,0.0315,1.83E-05,0.0745,0.281,81.978,4,A#,minor,A# minor
+417,The Amazons,Mother,Future Dust,album,46,rock,0.425,0.878,2,-5.799,0.057,0.003,0.221,0.597,0.414,79.509,4,D,minor,D minor
+418,Dinosaur Pile-Up,Back Foot,Back Foot,single,45,rock,0.547,0.922,6,-5.845,0.0858,0.00619,1.13E-05,0.349,0.844,160.128,4,F#,major,F# major
+419,Bush,Bullet Holes,Bullet Holes,single,44,rock,0.49,0.819,8,-4.11,0.0615,0.00495,3.63E-05,0.129,0.356,149.945,4,G#,major,G# major
+420,Liily,Sold,I Can Fool Anybody in This Town,single,42,rock,0.491,0.839,11,-5.928,0.0386,0.0105,0.0506,0.161,0.519,172.119,4,B,major,B major
+421,SWMRS,Berkeley's On Fire,Berkeley's On Fire,album,41,rock,0.684,0.934,2,-2.711,0.0872,0.122,0,0.259,0.614,139.971,4,D,major,D major
+422,Demob Happy,Autoportrait,Autoportrait,single,30,rock,0.567,0.964,7,-6.093,0.0648,0.00061,0.000296,0.238,0.792,148.993,4,G,major,G major
+423,Oliver Tree,Hurt,Do You Feel Me?,single,18,rock,0.564,0.781,0,-5.837,0.038,0.019,0,0.362,0.501,93.991,4,C,major,C major
+424,Palaye Royale,Fucking With My Head,Fucking With My Head,single,3,rock,0.464,0.948,10,-4.368,0.115,0.00036,0.00065,0.571,0.607,145.1,4,A#,minor,A# minor
+425,Highly Suspect,16,16,single,0,rock,0.644,0.627,2,-5.226,0.0409,0.00102,1.18E-05,0.0638,0.188,91.971,4,D,major,D major
+426,YUNGBLUD,hope for the underrated youth,Hope For The Underrated Youth,single,0,rock,0.217,0.785,11,-3.168,0.0494,0.0245,0,0.121,0.199,157.538,4,B,minor,B minor
+427,Dirty Honey,When I'm Gone,Dirty Honey,single,0,rock,0.452,0.916,1,-3.17,0.0478,0.000308,0.000391,0.118,0.592,90.995,4,C#,major,C# major
+428,Green Day,Father of All...,Father of All...,single,0,rock,0.462,0.912,11,-4.07,0.226,0.000138,0,0.0357,0.722,163.937,4,B,minor,B minor
+429,Des Rocs,Outta My Mind,Outta My Mind,single,0,rock,0.586,0.841,9,-4.095,0.0735,0.0148,0,0.522,0.55,102.115,4,A,major,A major
+430,Inhaler,My Honest Face,My Honest Face,single,0,rock,0.414,0.949,5,-6.038,0.0767,0.000498,0.000317,0.102,0.46,159.999,4,F,major,F major
+431,White Reaper,Might Be Right,Might Be Right,single,0,rock,0.595,0.86,1,-3.897,0.0332,0.00222,0.18,0.227,0.891,131.99,4,C#,minor,C# minor
+432,FIDLAR,By Myself,Almost Free,album,0,rock,0.632,0.892,7,-4.266,0.0992,0.00404,0,0.328,0.826,120.948,4,G,major,G major
+433,The Raconteurs,Sunday Driver,Help Us Stranger (With Track-by-Track Commentary),album,0,rock,0.438,0.768,9,-6.358,0.113,0.00548,0.000748,0.337,0.343,122.417,4,A,major,A major
+434,Dan + Shay,"10,000 Hours (with Justin Bieber)","10,000 Hours (with Justin Bieber)",single,86,country,0.654,0.63,10,-4.644,0.0259,0.153,0,0.111,0.43,89.991,4,A#,major,A# major
+435,Marshmello,One Thing Right,One Thing Right,single,78,country,0.659,0.623,4,-2.253,0.0451,0.0667,0,0.582,0.439,88.042,4,E,major,E major
+436,Blake Shelton,God's Country,God's Country,single,74,country,0.538,0.752,10,-5.106,0.0396,0.0608,5.39E-06,0.118,0.217,139.984,4,A#,major,A# major
+437,Lee Brice,Rumor,Lee Brice,album,74,country,0.655,0.56,9,-6.857,0.0486,0.749,0,0.115,0.599,140.975,4,A,major,A major
+438,Luke Bryan,Knockin' Boots,Knockin' Boots,single,72,country,0.739,0.682,2,-3.728,0.205,0.129,0,0.328,0.634,131.983,4,D,major,D major
+439,Chris Lane,I Don't Know About You,Laps Around The Sun,album,72,country,0.593,0.81,1,-5.733,0.0625,0.602,0,0.119,0.712,144.011,4,C#,major,C# major
+440,Dan + Shay,Tequila,Tequila,single,71,country,0.474,0.594,11,-5.756,0.0289,0.0292,0,0.133,0.503,86.131,4,B,major,B major
+441,Kane Brown,Homesick,Experiment Extended,album,71,country,0.701,0.5,8,-8.82,0.0303,0.46,0,0.234,0.409,97.028,4,G#,major,G# major
+442,Dan + Shay,All To Myself,Dan + Shay,album,70,country,0.646,0.781,1,-4.616,0.0313,0.208,0,0.125,0.565,94.975,4,C#,major,C# major
+443,Eli Young Band,Love Ain't,Love Ain't,single,70,country,0.6,0.851,11,-4.645,0.0388,0.00566,9.78E-06,0.0891,0.727,98.007,4,B,major,B major
+444,Brett Young,Catch,Ticket To L.A.,album,69,country,0.566,0.765,2,-6.337,0.0439,0.0248,0,0.0783,0.604,156.036,4,D,major,D major
+445,Ingrid Andress,More Hearts Than Mine,More Hearts Than Mine,single,67,country,0.573,0.428,0,-7.414,0.0263,0.112,0,0.114,0.4,80.907,4,C,major,C major
+446,Jason Aldean,You Make It Easy,You Make It Easy,single,67,country,0.375,0.574,7,-5.305,0.0315,0.143,0,0.11,0.406,132.025,3,G,major,G major
+447,Florida Georgia Line,Blessings,Can't Say I Ain't Country,album,66,country,0.466,0.672,4,-5.926,0.036,0.737,0,0.0858,0.334,89.081,4,E,major,E major
+448,Thomas Rhett,Remember You Young,Center Point Road,album,66,country,0.396,0.51,6,-6.274,0.0327,0.355,0,0.113,0.299,113.994,4,F#,major,F# major
+449,Sam Hunt,Kinfolks,Kinfolks,single,65,country,0.565,0.805,0,-4.457,0.0489,0.0808,0,0.173,0.869,76.04,4,C,major,C major
+450,Jimmie Allen,Make Me Want To,Mercury Lane,album,65,country,0.519,0.872,2,-3.212,0.0616,0.0793,0,0.111,0.74,179.965,4,D,major,D major
+451,Jason Aldean,Girl Like You,Rearview Town,album,65,country,0.543,0.88,3,-4.204,0.0365,0.035,0.000227,0.304,0.483,144.057,4,D#,minor,D# minor
+452,Chris Young,Raised on Country,Raised on Country,single,65,country,0.572,0.794,2,-3.224,0.0455,0.395,0,0.23,0.79,148.095,4,D,major,D major
+453,Carrie Underwood,Southbound,Cry Pretty,album,65,country,0.614,0.884,0,-4.019,0.0402,0.00122,0,0.077,0.721,100.531,4,C,major,C major
+454,Luke Bryan,What She Wants Tonight,What She Wants Tonight,single,65,country,0.484,0.903,8,-3.9,0.0882,0.0649,0,0.151,0.716,169.948,4,G#,minor,G# minor
+455,Brett Young,Here Tonight,Ticket To L.A.,album,64,country,0.517,0.776,11,-5.271,0.0362,0.0144,0,0.113,0.448,96.002,4,B,major,B major
+456,Kenny Chesney,Tip of My Tongue,Tip of My Tongue,single,63,country,0.669,0.559,5,-5.003,0.0251,0.0805,0,0.0703,0.491,95.001,4,F,major,F major
+457,Jon Pardi,Heartache Medication,Heartache Medication,single,62,country,0.621,0.791,9,-3.343,0.0265,0.0361,0,0.143,0.734,95.075,4,A,major,A major
+458,Cole Swindell,Love You Too Late,All of It,album,62,country,0.542,0.797,9,-4.45,0.0379,0.00111,0,0.0906,0.593,113.95,4,A,minor,A minor
+459,Kelsea Ballerini,homecoming queen?,homecoming queen?,single,61,country,0.462,0.512,9,-5.443,0.0334,0.478,0,0.0993,0.29,114.014,4,A,major,A major
+460,Miranda Lambert,It All Comes Out in the Wash,Wildcard,album,59,country,0.602,0.73,0,-4.925,0.0313,0.00106,0.000116,0.095,0.923,164.029,4,C,major,C major
+461,Keith Urban,We Were,We Were,single,57,country,0.44,0.803,5,-6.162,0.0512,0.127,0,0.128,0.633,79.312,4,F,major,F major
+462,Chris Janson,Good Vibes,Good Vibes,single,57,country,0.582,0.846,0,-2.771,0.0451,0.022,0,0.133,0.736,92.004,4,C,major,C major
+463,Runaway June,Buy My Own Drinks,Blue Roses,album,57,country,0.686,0.9,5,-4.406,0.0614,0.068,0,0.0985,0.962,155.963,4,F,major,F major
+464,Brantley Gilbert,What Happens In A Small Town,What Happens In A Small Town,single,56,country,0.496,0.775,11,-5.304,0.0411,0.000927,0,0.14,0.478,138.165,4,B,major,B major
+465,Trisha Yearwood,Every Girl in This Town,Every Girl in This Town,single,42,country,0.616,0.681,7,-7.265,0.0304,0.0572,0,0.0899,0.353,111.942,4,G,major,G major
+466,Gabby Barrett,I Hope,I Hope,single,30,country,0.561,0.536,6,-6.227,0.0346,0.0951,0,0.114,0.378,150.01,4,F#,major,F# major
+467,Maren Morris,GIRL,GIRL,album,15,country,0.44,0.793,6,-3.95,0.0502,0.0677,0,0.0788,0.447,143.599,4,F#,major,F# major
+468,Lil Nas X,Old Town Road (feat. Billy Ray Cyrus) - Remix,Old Town Road,single,14,country,0.878,0.619,6,-5.56,0.102,0.0533,0,0.113,0.639,136.041,4,F#,major,F# major
+469,Diplo,Heartless (feat. Morgan Wallen),Heartless (feat. Morgan Wallen),single,11,country,0.764,0.555,11,-6.414,0.0604,0.275,0,0.0824,0.255,111.004,4,B,major,B major
+470,Blanco Brown,The Git Up,The Git Up,single,8,country,0.847,0.678,9,-8.635,0.109,0.0669,0,0.274,0.811,97.984,4,A,major,A major
+471,Ashley McBryde,One Night Standards,One Night Standards,single,7,country,0.54,0.694,5,-4.456,0.0296,0.0241,0.0092,0.0971,0.613,78.017,4,F,major,F major
+472,Luke Combs,"1, 2 Many",What You See Is What You Get,album,7,country,0.54,0.821,6,-3.789,0.0875,0.0397,0,0.423,0.685,148.791,4,F#,major,F# major
+473,Chase Rice,Lonely If You Are,Lonely If You Are,single,2,country,0.593,0.745,7,-4.37,0.0574,0.19,0,0.227,0.849,169.951,4,G,major,G major
+474,Old Dominion,One Man Band,Old Dominion,single,1,country,0.705,0.363,6,-8.327,0.0355,0.667,0,0.112,0.482,75.98,4,F#,major,F# major
+475,Lady A,What If I Never Get Over You,What If I Never Get Over You,single,1,country,0.58,0.725,0,-5.124,0.0273,0.016,0,0.107,0.369,93.014,4,C,major,C major
+476,Luke Combs,Even Though I'm Leaving,The Prequel - EP,single,1,country,0.547,0.743,2,-6.064,0.0323,0.235,0,0.231,0.647,77.9,4,D,major,D major
+477,Carly Pearce,Closer To You,Closer To You,single,1,country,0.662,0.685,4,-4.561,0.0302,0.125,0,0.0961,0.447,111.964,4,E,minor,E minor
+478,Kane Brown,Good as You,Experiment,album,1,country,0.634,0.516,8,-6.05,0.0373,0.4,0,0.142,0.769,153.831,4,G#,major,G# major
+479,Luke Combs,Beer Never Broke My Heart,Beer Never Broke My Heart,single,0,country,0.54,0.863,1,-4.483,0.0481,0.0138,0,0.0871,0.64,77,4,C#,major,C# major
+480,Morgan Wallen,Whiskey Glasses,The Way I Talk,single,0,country,0.612,0.671,6,-4.448,0.0276,0.397,1.19E-06,0.0984,0.7,149.986,4,F#,major,F# major
+481,Thomas Rhett,Look What God Gave Her,Look What God Gave Her,single,0,country,0.732,0.847,2,-3.921,0.0307,0.0221,0,0.246,0.885,113.012,4,D,major,D major
+482,Matt Stell,Prayed For You,Matt Stell,single,0,country,0.595,0.698,9,-5.836,0.0361,0.0851,0,0.106,0.518,140.035,4,A,major,A major
+483,Regard,Ride It,Ride It,single,87,dance,0.88,0.751,7,-4.258,0.0874,0.177,6.43E-05,0.106,0.884,117.948,4,G,minor,G minor
+484,Kygo,Higher Love,Higher Love,single,83,dance,0.693,0.678,8,-7.159,0.0324,0.0154,6.05E-06,0.101,0.404,103.952,4,G#,major,G# major
+485,MEDUZA,Piece Of Your Heart,Piece Of Your Heart,single,82,dance,0.677,0.744,10,-6.806,0.0295,0.0404,0.00016,0.074,0.631,124.08,4,A#,minor,A# minor
+486,Calvin Harris,Giant (with Rag'n'Bone Man),Giant (with Rag'n'Bone Man),single,79,dance,0.807,0.887,1,-4.311,0.0361,0.016,0.000503,0.0811,0.606,122.015,4,C#,minor,C# minor
+487,R3HAB,All Around The World (La La La),All Around The World (La La La),single,78,dance,0.733,0.859,9,-5.03,0.033,0.479,0.0645,0.105,0.52,124.948,4,A,minor,A minor
+488,FISHER,Losing It,Losing It,single,77,dance,0.76,0.964,2,-5.844,0.0577,0.00181,0.703,0.0975,0.643,125.003,4,D,major,D major
+489,Tiësto,Ritual,Ritual,single,76,dance,0.647,0.726,3,-4.389,0.0552,0.157,0,0.0844,0.767,114.996,4,D#,minor,D# minor
+490,NOTD,So Close,So Close (feat. Georgia Ku),single,76,dance,0.7,0.872,10,-5.896,0.0666,0.121,7.08E-06,0.103,0.761,125.03,4,A#,major,A# major
+491,Avicii,Heaven,TIM,album,74,dance,0.592,0.873,9,-5.65,0.0275,0.0715,0.00982,0.142,0.516,122.011,4,A,major,A major
+492,David Guetta,Better When You're Gone,Better When You're Gone,single,71,dance,0.647,0.795,1,-3.548,0.0372,0.0635,0,0.188,0.409,127.992,4,C#,minor,C# minor
+493,Joel Corry,Sorry,Sorry,single,71,dance,0.744,0.79,8,-4.617,0.0562,0.0547,0.000802,0.32,0.847,125.002,4,G#,minor,G# minor
+494,Martin Garrix,No Sleep (feat. Bonn),No Sleep (feat. Bonn),single,70,dance,0.44,0.635,11,-6.385,0.0326,0.129,0,0.121,0.327,128.133,4,B,major,B major
+495,Sigala,Wish You Well,Wish You Well,single,70,dance,0.669,0.895,5,-3.787,0.0575,0.128,0,0.297,0.576,124.975,4,F,minor,F minor
+496,FISHER,You Little Beauty,You Little Beauty,single,70,dance,0.926,0.951,6,-5.531,0.0924,0.00232,0.452,0.313,0.918,123.987,4,F#,minor,F# minor
+497,Duke Dumont,Red Light Green Light,"Red Light Green Light (For Club Play Only, Pt. 6)",single,69,dance,0.811,0.825,2,-5.48,0.0654,0.000646,0.517,0.0689,0.95,124.005,4,D,major,D major
+498,Gorgon City,There For You,There For You,single,68,dance,0.533,0.844,11,-5.04,0.0302,0.00529,8.91E-05,0.0722,0.712,123.971,4,B,minor,B minor
+499,Zara Larsson,All the Time - Don Diablo Remix,All the Time (Don Diablo Remix),single,67,dance,0.675,0.931,1,-3.432,0.0742,0.0794,2.33E-05,0.11,0.613,124.008,4,C#,minor,C# minor
+500,Yves V,We Got That Cool (feat. Afrojack & Icona Pop),We Got That Cool (feat. Afrojack & Icona Pop),single,67,dance,0.639,0.865,1,-5.01,0.0357,0.00462,1.26E-06,0.208,0.611,124.01,4,C#,major,C# major
+501,Oliver Heldens,Fire In My Soul,Fire In My Soul,single,66,dance,0.592,0.977,6,-3.389,0.312,0.206,0.000103,0.0703,0.496,126.178,4,F#,major,F# major
+502,Jess Glynne,One Touch,One Touch,single,66,dance,0.686,0.693,0,-6.245,0.131,0.329,0,0.136,0.699,124.206,4,C,minor,C minor
+503,CamelPhat,Breathe,Breathe,single,66,dance,0.595,0.877,9,-7.414,0.0442,0.00646,0.0879,0.398,0.081,125.015,4,A,minor,A minor
+504,Dynoro,Obsessed,Obsessed,single,66,dance,0.582,0.826,11,-4.599,0.0612,0.0614,2.70E-06,0.108,0.201,117.948,4,B,minor,B minor
+505,DJ Snake,Magenta Riddim,Carte Blanche,album,65,dance,0.602,0.892,10,-3.66,0.0672,0.000393,0.813,0.304,0.57,102.047,4,A#,minor,A# minor
+506,Kygo,Carry On - Nicky Romero Remix,Carry On (Nicky Romero Remix),single,65,dance,0.447,0.684,9,-4.721,0.09,0.175,0,0.478,0.437,125.655,4,A,minor,A minor
+507,Dom Dolla,Take It,Take It,single,65,dance,0.851,0.742,0,-6.126,0.0377,0.0259,0.256,0.111,0.236,123.033,4,C,major,C major
+508,Elderbrook,Something About You (with Rudimental),Something About You (with Rudimental),single,65,dance,0.767,0.605,6,-5.737,0.188,0.559,0.000363,0.193,0.657,107.042,4,F#,minor,F# minor
+509,Peggy Gou,Starry Night - Edit,Starry Night,single,64,dance,0.747,0.865,8,-8.094,0.0351,0.00915,0.486,0.0425,0.935,122.994,4,G#,minor,G# minor
+510,PNAU,Solid Gold,Solid Gold,single,64,dance,0.567,0.946,5,-2.245,0.0541,0.0978,1.37E-06,0.0836,0.295,104.983,4,F,minor,F minor
+511,Don Diablo,Brave,Brave,single,64,dance,0.654,0.874,6,-3.885,0.0543,0.169,1.77E-06,0.134,0.542,119.85,4,F#,major,F# major
+512,Timmy Trumpet,Therapy,Therapy,single,64,dance,0.504,0.896,10,-6.249,0.044,0.00183,0.0284,0.134,0.0393,149.936,4,A#,minor,A# minor
+513,Paul Kalkbrenner,No Goodbye,No Goodbye,single,64,dance,0.945,0.584,6,-7.649,0.044,0.0955,0.341,0.147,0.626,124.996,4,F#,minor,F# minor
+514,Avicii,Tough Love - Tiësto Remix / Radio Edit,Tough Love (Tiësto Remix),single,64,dance,0.594,0.935,8,-3.562,0.0565,0.0249,3.97E-06,0.637,0.366,127.015,4,G#,major,G# major
+515,Jack Back,Survivor,Survivor / Put Your Phone Down (Low),single,63,dance,0.715,0.87,3,-3.303,0.0494,0.00975,0.0927,0.0829,0.305,125.008,4,D#,major,D# major
+516,Tiësto,Grapevine,Grapevine,single,63,dance,0.714,0.828,3,-4.663,0.0598,0.00514,0.154,0.32,0.208,124.034,4,D#,major,D# major
+517,Skrillex,Midnight Hour with Boys Noize & Ty Dolla $ign,Midnight Hour with Boys Noize & Ty Dolla $ign,single,62,dance,0.795,0.899,0,-4.202,0.0685,0.00235,0.000392,0.199,0.329,125.978,4,C,major,C major
+518,Dombresky,Soul Sacrifice,Soul Sacrifice,single,62,dance,0.847,0.934,9,-5.381,0.0442,0.00783,0.494,0.0797,0.863,126.035,4,A,major,A major
+519,Alesso,In The Middle,In The Middle,single,61,dance,0.751,0.92,9,-5.618,0.0964,0.00504,0.00302,0.127,0.633,122.991,4,A,minor,A minor
+520,Avicii,SOS - Laidback Luke Tribute Remix / Radio Edit,SOS (Laidback Luke Tribute Remix),single,61,dance,0.572,0.915,5,-4.451,0.0625,0.0111,0,0.339,0.678,123.919,4,F,minor,F minor
+521,Cheat Codes,Who's Got Your Love,Who's Got Your Love,single,61,dance,0.704,0.888,11,-2.872,0.0541,0.00553,0.0011,0.079,0.531,125.027,4,B,major,B major
+522,David Guetta,Thing For You (With Martin Solveig),Thing For You (With Martin Solveig),single,61,dance,0.774,0.723,2,-5.545,0.0496,0.0395,1.82E-05,0.1,0.769,121.057,4,D,major,D major
+523,Audien,Never Letting Go,Never Letting Go,single,60,dance,0.534,0.765,1,-3.151,0.0338,0.0915,0.00107,0.225,0.117,127.978,4,C#,major,C# major
+524,Leftwing : Kody,I Feel It,I Feel It,single,60,dance,0.566,0.954,6,-4.678,0.0376,0.00411,0.0257,0.0943,0.887,125.967,4,F#,major,F# major
+525,Moguai,Faith,Faith,single,60,dance,0.559,0.669,2,-5.111,0.203,0.0251,0.00303,0.302,0.206,121.232,4,D,major,D major
+526,ARTY,Save Me Tonight,Save Me Tonight,single,59,dance,0.55,0.899,5,-3.284,0.0458,0.0113,9.65E-05,0.137,0.408,125.85,4,F,minor,F minor
+527,Arlissa,Hearts Ain't Gonna Lie - Eden Prince Remix,"Hearts Ain't Gonna Lie (Remixes, Pt. 1)",single,59,dance,0.609,0.83,6,-3.759,0.0793,0.201,6.18E-05,0.0321,0.604,117.833,4,F#,minor,F# minor
+528,Martin Garrix,Mistaken (feat. Alex Aris),Mistaken (feat. Alex Aris),single,59,dance,0.424,0.694,6,-4.912,0.0386,0.0573,0.000937,0.133,0.0801,128.034,4,F#,minor,F# minor
+529,Wilkinson,All For You,All For You,single,59,dance,0.526,0.783,0,-3.681,0.0376,0.00499,0,0.136,0.138,173.972,4,C,minor,C minor
+530,Armin van Buuren,Something Real,Something Real,single,59,dance,0.575,0.808,1,-4.578,0.0439,0.0446,0,0.0693,0.232,127.922,4,C#,major,C# major
+531,Solardo,XTC,XTC,single,59,dance,0.703,0.929,3,-6.5,0.0661,0.00761,0.00334,0.219,0.585,128.005,4,D#,minor,D# minor
+532,Deorro,All This Time,All This Time,single,59,dance,0.66,0.857,2,-5.219,0.321,0.167,1.36E-05,0.119,0.233,130.069,4,D,major,D major
+533,BTS,Boy With Luv (feat. Halsey),MAP OF THE SOUL : PERSONA,album,84,kpop,0.645,0.862,11,-4.757,0.0965,0.0923,0,0.192,0.798,119.991,4,B,minor,B minor
+534,K/DA,POP/STARS,POP/STARS,single,79,kpop,0.566,0.769,7,-4.342,0.0872,0.0183,0,0.108,0.385,170.036,4,G,major,G major
+535,BLACKPINK,DDU-DU DDU-DU,SQUARE UP,single,78,kpop,0.671,0.859,4,-3.922,0.0833,0.0323,0,0.267,0.389,139.931,4,E,minor,E minor
+536,BLACKPINK,As If It's Your Last,As If It's Your Last,single,78,kpop,0.786,0.853,8,-2.687,0.0816,0.0688,0,0.0759,0.45,125.034,4,G#,major,G# major
+537,BLACKPINK,BOOMBAYAH,SQUARE ONE,single,77,kpop,0.658,0.836,5,-3.282,0.0549,0.00264,1.02E-06,0.507,0.387,124.969,4,F,minor,F minor
+538,BTS,Mikrokosmos,MAP OF THE SOUL : PERSONA,album,76,kpop,0.58,0.858,8,-5.212,0.114,0.125,0,0.0502,0.475,174.039,3,G#,major,G# major
+539,BLACKPINK,PLAYING WITH FIRE,SQUARE TWO,single,76,kpop,0.707,0.758,4,-4.511,0.0917,0.0399,0,0.141,0.674,97.037,4,E,minor,E minor
+540,SHAUN,Way Back Home (feat. Conor Maynard) - Sam Feldt Edit,Way Back Home (feat. Conor Maynard) [Sam Feldt Edit],single,76,kpop,0.737,0.747,10,-4.818,0.0323,0.269,0,0.219,0.447,105.943,4,A#,major,A# major
+541,JENNIE,SOLO,SOLO,single,74,kpop,0.751,0.642,3,-5.165,0.087,0.0861,0,0.0953,0.388,95.045,4,D#,minor,D# minor
+542,iKON,LOVE SCENARIO,Return,album,74,kpop,0.806,0.707,7,-4.623,0.0307,0.331,0,0.294,0.746,118.011,4,G,major,G major
+543,BTS,FAKE LOVE,Love Yourself 轉 'Tear',album,74,kpop,0.557,0.719,2,-4.515,0.0372,0.00267,0,0.306,0.344,77.501,4,D,minor,D minor
+544,EXO,Love Shot,LOVE SHOT– The 5th Album Repackage,album,73,kpop,0.689,0.678,5,-4.287,0.119,0.0702,0,0.0889,0.335,145.883,4,F,minor,F minor
+545,SHAUN,Way Back Home,Take,single,73,kpop,0.745,0.739,10,-4.591,0.0327,0.405,0.000183,0.127,0.556,99.913,4,A#,major,A# major
+546,j-hope,Chicken Noodle Soup (feat. Becky G),Chicken Noodle Soup (feat. Becky G),single,73,kpop,0.826,0.817,2,-4.081,0.0921,0.00502,1.09E-05,0.294,0.168,97.053,4,D,major,D major
+547,Red Velvet,Bad Boy,The Perfect Red Velvet - The 2nd Album Repackage,album,72,kpop,0.714,0.736,2,-3.801,0.0457,0.191,0,0.0553,0.814,149.985,4,D,major,D major
+548,BLACKPINK,Kill This Love,Kill This Love,single,71,kpop,0.738,0.861,2,-4.141,0.237,0.318,0.00182,0.325,0.58,131.98,4,D,major,D major
+549,IU,BBIBBI,BBIBBI,single,71,kpop,0.839,0.617,7,-4.692,0.331,0.241,0,0.3,0.821,143.894,4,G,major,G major
+550,IU,Blueming,Love poem,single,71,kpop,0.819,0.674,0,-3.145,0.0587,0.0849,0,0.0667,0.682,106.032,4,C,major,C major
+551,RM,seoul (prod. HONNE),mono.,album,71,kpop,0.587,0.664,0,-8.63,0.0645,0.344,2.47E-05,0.324,0.453,99.8,4,C,major,C major
+552,BLACKPINK,Forever Young,SQUARE UP,single,70,kpop,0.6,0.96,4,-1.807,0.095,0.0426,0,0.0882,0.503,109.863,4,E,major,E major
+553,SUNMI,Gashina,SUNMI SPECIAL EDITION [Gashina],single,70,kpop,0.722,0.833,6,-3.915,0.094,0.0556,0,0.195,0.53,93.941,4,F#,major,F# major
+554,EVERGLOW,Adios,HUSH,single,70,kpop,0.633,0.706,10,-5.137,0.0627,0.000587,0.0795,0.245,0.399,128.187,4,A#,minor,A# minor
+555,EXO,Obsession,OBSESSION - The 6th Album,album,70,kpop,0.704,0.729,7,-3.851,0.0624,0.0024,0,0.218,0.71,129.992,4,G,major,G major
+556,MAMAMOO,gogobebe,White Wind,single,70,kpop,0.704,0.787,0,-3.114,0.082,0.114,0,0.228,0.707,96.929,4,C,major,C major
+557,TOMORROW X TOGETHER,CROWN,The Dream Chapter: STAR,single,70,kpop,0.622,0.8,5,-5.819,0.0425,0.0505,0,0.0619,0.58,110.977,4,F,major,F major
+558,ITZY,ICY,IT'z ICY,single,70,kpop,0.801,0.904,2,-2.819,0.0834,0.0324,3.10E-05,0.182,0.814,124.979,4,D,major,D major
+559,DEAN,instagram,instagram,single,70,kpop,0.463,0.566,8,-6.195,0.145,0.196,0,0.284,0.219,93.921,4,G#,major,G# major
+560,SuperM,Jopping,SuperM - The 1st Mini Album,album,69,kpop,0.74,0.835,10,-3.425,0.0839,0.0139,0,0.857,0.535,123.024,4,A#,minor,A# minor
+561,BTS,Heartbeat (BTS World Original Soundtrack),BTS WORLD (Original Soundtrack),compilation,69,kpop,0.437,0.716,5,-4.306,0.05,0.39,0,0.208,0.307,170.094,4,F,major,F major
+562,BLACKPINK,Don't Know What To Do,Kill This Love,single,69,kpop,0.628,0.64,6,-4.164,0.0491,0.0992,0,0.138,0.409,129.815,4,F#,minor,F# minor
+563,BTS,IDOL,Love Yourself 結 'Answer',album,69,kpop,0.709,0.857,9,-3.394,0.0881,0.00219,0,0.103,0.446,126.038,4,A,major,A major
+564,Red Velvet,Peek-A-Boo,Perfect Velvet - The 2nd Album,album,69,kpop,0.839,0.902,1,-3.612,0.0536,0.0868,0.00257,0.272,0.639,114.953,4,C#,minor,C# minor
+565,MAMAMOO,Egotistic,RED MOON,single,69,kpop,0.616,0.833,3,-3.314,0.067,0.315,0,0.175,0.595,97.898,4,D#,minor,D# minor
+566,GOT7,You Calling My Name,Call My Name,single,69,kpop,0.813,0.667,0,-4.061,0.0616,0.0917,0,0.0802,0.514,111.02,4,C,minor,C minor
+567,ATEEZ,WONDERLAND,TREASURE EP.FIN: All To Action,album,69,kpop,0.572,0.964,4,-1.949,0.123,0.0503,0,0.372,0.519,129.979,4,E,minor,E minor
+568,NCT DREAM,BOOM,We Boom - The 3rd Mini Album,single,69,kpop,0.914,0.516,5,-4.178,0.0918,0.131,0,0.0441,0.702,119.969,4,F,minor,F minor
+569,SOMI,BIRTHDAY,BIRTHDAY,single,68,kpop,0.687,0.843,7,-4.242,0.109,0.0163,9.96E-06,0.0372,0.597,180.055,4,G,major,G major
+570,PENTAGON,Shine,Positive,single,68,kpop,0.74,0.804,3,-2.187,0.0546,0.411,0,0.0578,0.791,150.013,4,D#,major,D# major
+571,MOMOLAND,BBoom BBoom,GREAT!,single,68,kpop,0.785,0.744,3,-4.249,0.0369,0.0149,0.00666,0.0661,0.833,126.018,4,D#,minor,D# minor
+572,IZ*ONE,La Vie en Rose,COLOR*IZ,album,67,kpop,0.698,0.908,9,-1.211,0.0548,0.0899,0,0.115,0.606,115.975,4,A,minor,A minor
+573,CHUNG HA,Gotta Go,Gotta Go,single,67,kpop,0.53,0.829,3,-2.526,0.0445,0.0741,0,0.0993,0.423,101.85,4,D#,minor,D# minor
+574,HEIZE,We don’t talk together,We don’t talk together,single,67,kpop,0.64,0.734,11,-4.67,0.0381,0.039,0,0.333,0.308,97.862,4,B,minor,B minor
+575,TWICE,Feel Special,Feel Special,album,66,kpop,0.709,0.959,1,-1.339,0.0603,0.0296,0.00188,0.107,0.644,128.983,4,C#,major,C# major
+576,CHUNG HA,Snapping,Flourishing,single,66,kpop,0.751,0.726,8,-3.499,0.038,0.0706,3.42E-06,0.278,0.581,104.914,4,G#,minor,G# minor
+577,SEVENTEEN,Home,SEVENTEEN 6TH MINI ALBUM 'YOU MADE MY DAWN',single,66,kpop,0.741,0.547,9,-5.029,0.253,0.427,0,0.0931,0.615,87.977,4,A,major,A major
+578,(G)I-DLE,LATATA,I am,single,66,kpop,0.774,0.792,9,-4.019,0.224,0.00427,1.15E-06,0.283,0.505,98.1,4,A,minor,A minor
+579,NCT 127,Simon Says,NCT #127 Regulate - The 1st Album Repackage,album,65,kpop,0.653,0.836,9,-6.018,0.238,0.218,0,0.0507,0.569,151.977,4,A,major,A major
+580,The Rose,She's In The Rain,Dawn,single,65,kpop,0.36,0.533,3,-4.394,0.0302,0.375,0,0.0768,0.421,92.854,4,D#,major,D# major
+581,RM,forever rain,mono.,album,65,kpop,0.389,0.591,7,-8.437,0.0622,0.0307,6.53E-05,0.392,0.252,138.902,4,G,major,G major
+582,ATEEZ,Say My Name,TREASURE EP.2: Zero To One,single,65,kpop,0.634,0.9,6,-2.614,0.0583,0.212,0,0.317,0.623,152.968,4,F#,minor,F# minor
+583,(G)I-DLE,HANN (Alone),HANN (Alone),single,65,kpop,0.709,0.718,6,-3.315,0.0312,0.059,0,0.167,0.24,104.971,4,F#,minor,F# minor
